@@ -1,0 +1,2555 @@
+{
+  "version": 2,
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "Value is the item. It also accepts item components. The default config has an example with a harming potion",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": [
+    {
+      "value": "ae2:certus_quartz_axe",
+      "weight": 9975,
+      "quality": 69.18641
+    },
+    {
+      "value": "ae2:certus_quartz_sword",
+      "weight": 29009,
+      "quality": 54.064972
+    },
+    {
+      "value": "ae2:fluix_axe",
+      "weight": 8597,
+      "quality": 70.35292
+    },
+    {
+      "value": "ae2:fluix_sword",
+      "weight": 23060,
+      "quality": 58.591457
+    },
+    {
+      "value": "ae2:nether_quartz_axe",
+      "weight": 9975,
+      "quality": 69.18641
+    },
+    {
+      "value": "ae2:nether_quartz_sword",
+      "weight": 29009,
+      "quality": 54.064972
+    },
+    {
+      "value": "alexscaves:desolate_dagger",
+      "weight": 47984,
+      "quality": 40.84477
+    },
+    {
+      "value": "betterend:aeternium_axe",
+      "weight": 6244,
+      "quality": 72.36887
+    },
+    {
+      "value": "betterend:aeternium_sword",
+      "weight": 10639,
+      "quality": 68.62763
+    },
+    {
+      "value": "betterend:terminite_axe",
+      "weight": 7137,
+      "quality": 71.60015
+    },
+    {
+      "value": "betterend:terminite_sword",
+      "weight": 17958,
+      "quality": 62.617535
+    },
+    {
+      "value": "betterend:thallasium_axe",
+      "weight": 11660,
+      "quality": 67.772705
+    },
+    {
+      "value": "betterend:thallasium_sword",
+      "weight": 35166,
+      "quality": 49.572376
+    },
+    {
+      "value": "butchercraft:bone_saw",
+      "weight": 128155,
+      "quality": 5.413778
+    },
+    {
+      "value": "butchercraft:butcher_knife",
+      "weight": 128155,
+      "quality": 5.413778
+    },
+    {
+      "value": "butchercraft:gut_knife",
+      "weight": 128155,
+      "quality": 5.413778
+    },
+    {
+      "value": "butchercraft:skinning_knife",
+      "weight": 128155,
+      "quality": 5.413778
+    },
+    {
+      "value": "create:cardboard_sword",
+      "weight": 27721,
+      "quality": 55.02968
+    },
+    {
+      "value": "create_confectionery:candy_cane_axe",
+      "weight": 21043,
+      "quality": 60.167385
+    },
+    {
+      "value": "create_confectionery:candy_cane_sword",
+      "weight": 50670,
+      "quality": 39.12267
+    },
+    {
+      "value": "create_fantasizing:tree_cutter",
+      "weight": 6999,
+      "quality": 71.7186
+    },
+    {
+      "value": "create_sa:blazing_axe",
+      "weight": 11787,
+      "quality": 67.6666
+    },
+    {
+      "value": "create_sa:blazing_cleaver",
+      "weight": 55613,
+      "quality": 36.051083
+    },
+    {
+      "value": "create_sa:brass_axe",
+      "weight": 9838,
+      "quality": 69.30189
+    },
+    {
+      "value": "create_sa:brass_sword",
+      "weight": 41141,
+      "quality": 45.399326
+    },
+    {
+      "value": "create_sa:copper_axe",
+      "weight": 20328,
+      "quality": 60.73086
+    },
+    {
+      "value": "create_sa:copper_sword",
+      "weight": 72918,
+      "quality": 26.285776
+    },
+    {
+      "value": "create_sa:experience_axe",
+      "weight": 8278,
+      "quality": 70.62485
+    },
+    {
+      "value": "create_sa:experience_sword",
+      "weight": 12092,
+      "quality": 67.412384
+    },
+    {
+      "value": "create_sa:rose_quartz_axe",
+      "weight": 9377,
+      "quality": 69.69171
+    },
+    {
+      "value": "create_sa:rose_quartz_sword",
+      "weight": 24462,
+      "quality": 57.50823
+    },
+    {
+      "value": "create_sa:zinc_axe",
+      "weight": 10013,
+      "quality": 69.153824
+    },
+    {
+      "value": "create_sa:zinc_sword",
+      "weight": 67356,
+      "quality": 29.256569
+    },
+    {
+      "value": "festive_delight:rolling_pin",
+      "weight": 51646,
+      "quality": 38.506287
+    },
+    {
+      "value": "iceandfire:amphithere_macuahuitl",
+      "weight": 41518,
+      "quality": 45.141846
+    },
+    {
+      "value": "iceandfire:copper_axe",
+      "weight": 19773,
+      "quality": 61.17025
+    },
+    {
+      "value": "iceandfire:copper_sword",
+      "weight": 66247,
+      "quality": 29.868046
+    },
+    {
+      "value": "iceandfire:dragonbone_axe",
+      "weight": 7018,
+      "quality": 71.702866
+    },
+    {
+      "value": "iceandfire:dragonbone_sword",
+      "weight": 12540,
+      "quality": 67.03981
+    },
+    {
+      "value": "iceandfire:dragonbone_sword_fire",
+      "weight": 7989,
+      "quality": 70.870995
+    },
+    {
+      "value": "iceandfire:dragonbone_sword_ice",
+      "weight": 7989,
+      "quality": 70.870995
+    },
+    {
+      "value": "iceandfire:dragonbone_sword_lightning",
+      "weight": 7989,
+      "quality": 70.870995
+    },
+    {
+      "value": "iceandfire:dragonsteel_fire_axe",
+      "weight": 3539,
+      "quality": 74.72032
+    },
+    {
+      "value": "iceandfire:dragonsteel_fire_sword",
+      "weight": 3755,
+      "quality": 74.531624
+    },
+    {
+      "value": "iceandfire:dragonsteel_ice_axe",
+      "weight": 3539,
+      "quality": 74.72032
+    },
+    {
+      "value": "iceandfire:dragonsteel_ice_sword",
+      "weight": 3755,
+      "quality": 74.531624
+    },
+    {
+      "value": "iceandfire:dragonsteel_lightning_axe",
+      "weight": 3539,
+      "quality": 74.72032
+    },
+    {
+      "value": "iceandfire:dragonsteel_lightning_sword",
+      "weight": 3755,
+      "quality": 74.531624
+    },
+    {
+      "value": "iceandfire:dread_knight_sword",
+      "weight": 5514,
+      "quality": 72.99972
+    },
+    {
+      "value": "iceandfire:dread_queen_sword",
+      "weight": 11701,
+      "quality": 67.738106
+    },
+    {
+      "value": "iceandfire:dread_sword",
+      "weight": 53124,
+      "quality": 37.58215
+    },
+    {
+      "value": "iceandfire:ghost_sword",
+      "weight": 6078,
+      "quality": 72.511795
+    },
+    {
+      "value": "iceandfire:hippocampus_slapper",
+      "weight": 72119,
+      "quality": 26.702692
+    },
+    {
+      "value": "iceandfire:hippogryph_sword",
+      "weight": 23185,
+      "quality": 58.49408
+    },
+    {
+      "value": "iceandfire:silver_axe",
+      "weight": 13459,
+      "quality": 66.27959
+    },
+    {
+      "value": "iceandfire:silver_sword",
+      "weight": 40249,
+      "quality": 46.010647
+    },
+    {
+      "value": "iceandfire:stymphalian_bird_dagger",
+      "weight": 28054,
+      "quality": 54.779537
+    },
+    {
+      "value": "iceandfire:tide_trident",
+      "weight": 5731,
+      "quality": 72.81157
+    },
+    {
+      "value": "iceandfire:troll_weapon_axe",
+      "weight": 5718,
+      "quality": 72.8233
+    },
+    {
+      "value": "iceandfire:troll_weapon_column",
+      "weight": 5718,
+      "quality": 72.8233
+    },
+    {
+      "value": "iceandfire:troll_weapon_column_forest",
+      "weight": 5718,
+      "quality": 72.8233
+    },
+    {
+      "value": "iceandfire:troll_weapon_column_frost",
+      "weight": 5718,
+      "quality": 72.8233
+    },
+    {
+      "value": "iceandfire:troll_weapon_hammer",
+      "weight": 5718,
+      "quality": 72.8233
+    },
+    {
+      "value": "iceandfire:troll_weapon_trunk",
+      "weight": 5718,
+      "quality": 72.8233
+    },
+    {
+      "value": "iceandfire:troll_weapon_trunk_frost",
+      "weight": 5718,
+      "quality": 72.8233
+    },
+    {
+      "value": "kaleidoscope_cookery:diamond_kitchen_knife",
+      "weight": 47984,
+      "quality": 40.84477
+    },
+    {
+      "value": "kaleidoscope_cookery:gold_kitchen_knife",
+      "weight": 164190,
+      "quality": 0.25
+    },
+    {
+      "value": "kaleidoscope_cookery:iron_kitchen_knife",
+      "weight": 93914,
+      "quality": 16.504646
+    },
+    {
+      "value": "kaleidoscope_cookery:netherite_kitchen_knife",
+      "weight": 32675,
+      "quality": 51.36689
+    },
+    {
+      "value": "kaleidoscope_cookery:sickle",
+      "weight": 71549,
+      "quality": 27.002222
+    },
+    {
+      "value": "kaleidoscope_end:dragon_tooth_knife",
+      "weight": 6074,
+      "quality": 72.51486
+    },
+    {
+      "value": "kaleidoscope_nether:primitive_machete",
+      "weight": 9264,
+      "quality": 69.787186
+    },
+    {
+      "value": "kaleidoscope_twilight:blazing_iron_kitchen_knife",
+      "weight": 12719,
+      "quality": 66.89178
+    },
+    {
+      "value": "kaleidoscope_twilight:ironwood_kitchen_knife",
+      "weight": 28054,
+      "quality": 54.779537
+    },
+    {
+      "value": "kaleidoscope_twilight:knight_kitchen_knife",
+      "weight": 18710,
+      "quality": 62.015865
+    },
+    {
+      "value": "kaleidoscope_twilight:steelleaf_kitchen_knife",
+      "weight": 18905,
+      "quality": 61.85994
+    },
+    {
+      "value": "minecraft:crossbow",
+      "weight": 38250,
+      "quality": 47.395435
+    },
+    {
+      "value": "minecraft:diamond_axe",
+      "weight": 9447,
+      "quality": 69.63271
+    },
+    {
+      "value": "minecraft:diamond_sword",
+      "weight": 17756,
+      "quality": 62.78016
+    },
+    {
+      "value": "minecraft:enchanted_book",
+      "weight": 29470,
+      "quality": 53.72223
+    },
+    {
+      "value": "minecraft:ender_pearl",
+      "weight": 31050,
+      "quality": 52.55475
+    },
+    {
+      "value": "minecraft:fishing_rod",
+      "weight": 53124,
+      "quality": 37.58215
+    },
+    {
+      "value": "minecraft:flint_and_steel",
+      "weight": 58772,
+      "quality": 34.15316
+    },
+    {
+      "value": "minecraft:golden_axe",
+      "weight": 20408,
+      "quality": 60.667496
+    },
+    {
+      "value": "minecraft:golden_sword",
+      "weight": 73961,
+      "quality": 25.746525
+    },
+    {
+      "value": "minecraft:iron_axe",
+      "weight": 9975,
+      "quality": 69.18641
+    },
+    {
+      "value": "minecraft:iron_sword",
+      "weight": 29009,
+      "quality": 54.064972
+    },
+    {
+      "value": "minecraft:lava_bucket",
+      "weight": 25568,
+      "quality": 56.661278
+    },
+    {
+      "value": "minecraft:netherite_axe",
+      "weight": 7002,
+      "quality": 71.71627
+    },
+    {
+      "value": "minecraft:netherite_sword",
+      "weight": 12491,
+      "quality": 67.08112
+    },
+    {
+      "value": "minecraft:stone_axe",
+      "weight": 10224,
+      "quality": 68.976326
+    },
+    {
+      "value": "minecraft:stone_sword",
+      "weight": 48858,
+      "quality": 40.280277
+    },
+    {
+      "value": "minecraft:trident",
+      "weight": 9300,
+      "quality": 69.75696
+    },
+    {
+      "value": "minecraft:wooden_axe",
+      "weight": 20524,
+      "quality": 60.57617
+    },
+    {
+      "value": "minecraft:wooden_sword",
+      "weight": 75503,
+      "quality": 24.959108
+    },
+    {
+      "value": "projecte:dm_axe",
+      "weight": 9826,
+      "quality": 69.312035
+    },
+    {
+      "value": "projecte:dm_sword",
+      "weight": 6190,
+      "quality": 72.41491
+    },
+    {
+      "value": "projecte:rm_axe",
+      "weight": 7318,
+      "quality": 71.44491
+    },
+    {
+      "value": "projecte:rm_sword",
+      "weight": 5602,
+      "quality": 72.923615
+    },
+    {
+      "value": "twilightforest:diamond_minotaur_axe",
+      "weight": 7033,
+      "quality": 71.68939
+    },
+    {
+      "value": "twilightforest:fiery_sword",
+      "weight": 13151,
+      "quality": 66.53406
+    },
+    {
+      "value": "twilightforest:giant_sword",
+      "weight": 6276,
+      "quality": 72.34134
+    },
+    {
+      "value": "twilightforest:glass_sword",
+      "weight": 2791,
+      "quality": 75.37716
+    },
+    {
+      "value": "twilightforest:gold_minotaur_axe",
+      "weight": 20408,
+      "quality": 60.667496
+    },
+    {
+      "value": "twilightforest:ice_sword",
+      "weight": 17583,
+      "quality": 62.918797
+    },
+    {
+      "value": "twilightforest:ironwood_axe",
+      "weight": 9684,
+      "quality": 69.4319
+    },
+    {
+      "value": "twilightforest:ironwood_sword",
+      "weight": 26679,
+      "quality": 55.81606
+    },
+    {
+      "value": "twilightforest:knightmetal_axe",
+      "weight": 7349,
+      "quality": 71.41879
+    },
+    {
+      "value": "twilightforest:knightmetal_sword",
+      "weight": 19360,
+      "quality": 61.49768
+    },
+    {
+      "value": "twilightforest:stale_bread",
+      "weight": 75503,
+      "quality": 24.959108
+    },
+    {
+      "value": "twilightforest:steeleaf_axe",
+      "weight": 7500,
+      "quality": 71.28906
+    },
+    {
+      "value": "twilightforest:steeleaf_sword",
+      "weight": 20448,
+      "quality": 60.635643
+    }
+  ],
+  "OFFHAND": [
+    {
+      "value": "alexscaves:resistor_shield",
+      "weight": 1345,
+      "quality": 3.1197376
+    },
+    {
+      "value": "iceandfire:dragonbone_bow",
+      "weight": 1415,
+      "quality": 3.0089586
+    },
+    {
+      "value": "kaleidoscope_cookery:stockpot_lid",
+      "weight": 1641,
+      "quality": 2.6646152
+    },
+    {
+      "value": "kaleidoscope_twilight:fiery_stockpot_lid",
+      "weight": 1641,
+      "quality": 2.6646152
+    },
+    {
+      "value": "minecraft:bow",
+      "weight": 1476,
+      "quality": 2.9137733
+    },
+    {
+      "value": {
+        "id": "minecraft:lingering_potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 1498,
+      "quality": 2.8789883
+    },
+    {
+      "value": "minecraft:shield",
+      "weight": 1523,
+      "quality": 2.842135
+    },
+    {
+      "value": "minecraft:snowball",
+      "weight": 4148,
+      "quality": 0.25
+    },
+    {
+      "value": {
+        "id": "minecraft:splash_potion",
+        "components": {
+          "minecraft:potion_contents": {
+            "potion": "minecraft:harming"
+          }
+        }
+      },
+      "weight": 1498,
+      "quality": 2.8789883
+    },
+    {
+      "value": "minecraft:tnt",
+      "weight": 1035,
+      "quality": 3.6324363
+    },
+    {
+      "value": "twilightforest:ender_bow",
+      "weight": 1476,
+      "quality": 2.9137733
+    },
+    {
+      "value": "twilightforest:ice_bow",
+      "weight": 1476,
+      "quality": 2.9137733
+    },
+    {
+      "value": "twilightforest:knightmetal_shield",
+      "weight": 1344,
+      "quality": 3.120721
+    },
+    {
+      "value": "twilightforest:seeker_bow",
+      "weight": 1476,
+      "quality": 2.9137733
+    },
+    {
+      "value": "twilightforest:triple_bow",
+      "weight": 1476,
+      "quality": 2.9137733
+    }
+  ],
+  "FEET": [
+    {
+      "value": "alexscaves:diving_boots",
+      "weight": 17906,
+      "quality": 6.128181
+    },
+    {
+      "value": "alexscaves:gingerbread_boots",
+      "weight": 18788,
+      "quality": 5.8433747
+    },
+    {
+      "value": "alexscaves:hazmat_boots",
+      "weight": 17401,
+      "quality": 6.294361
+    },
+    {
+      "value": "alexscaves:rainbounce_boots",
+      "weight": 17517,
+      "quality": 6.256117
+    },
+    {
+      "value": "betterend:aeternium_boots",
+      "weight": 4525,
+      "quality": 11.28076
+    },
+    {
+      "value": "betterend:crystalite_boots",
+      "weight": 11647,
+      "quality": 8.344012
+    },
+    {
+      "value": "betterend:terminite_boots",
+      "weight": 8662,
+      "quality": 9.5212965
+    },
+    {
+      "value": "betterend:thallasium_boots",
+      "weight": 32283,
+      "quality": 2.3306758
+    },
+    {
+      "value": "brewery:brewfest_boots",
+      "weight": 23323,
+      "quality": 4.4860473
+    },
+    {
+      "value": "brewery:brewfest_shoes",
+      "weight": 23323,
+      "quality": 4.4860473
+    },
+    {
+      "value": "butchercraft:boots",
+      "weight": 47838,
+      "quality": 0.25
+    },
+    {
+      "value": "create:cardboard_boots",
+      "weight": 47525,
+      "quality": 0.27113244
+    },
+    {
+      "value": "create:copper_diving_boots",
+      "weight": 41355,
+      "quality": 0.86096424
+    },
+    {
+      "value": "create:netherite_diving_boots",
+      "weight": 6409,
+      "quality": 10.460651
+    },
+    {
+      "value": "create_sa:brass_boots",
+      "weight": 17796,
+      "quality": 6.1641526
+    },
+    {
+      "value": "create_sa:copper_boots",
+      "weight": 35484,
+      "quality": 1.7303151
+    },
+    {
+      "value": "create_sa:slime_boots",
+      "weight": 20358,
+      "quality": 5.353128
+    },
+    {
+      "value": "create_sa:zinc_boots",
+      "weight": 18233,
+      "quality": 6.0219274
+    },
+    {
+      "value": "createnuclear:anti_radiation_boots",
+      "weight": 34146,
+      "quality": 1.9703288
+    },
+    {
+      "value": "iceandfire:armor_amethyst_boots",
+      "weight": 3220,
+      "quality": 11.866445
+    },
+    {
+      "value": "iceandfire:armor_black_boots",
+      "weight": 3220,
+      "quality": 11.866445
+    },
+    {
+      "value": "iceandfire:armor_blue_boots",
+      "weight": 3220,
+      "quality": 11.866445
+    },
+    {
+      "value": "iceandfire:armor_bronze_boots",
+      "weight": 3220,
+      "quality": 11.866445
+    },
+    {
+      "value": "iceandfire:armor_copper_boots",
+      "weight": 3220,
+      "quality": 11.866445
+    },
+    {
+      "value": "iceandfire:armor_copper_metal_boots",
+      "weight": 35055,
+      "quality": 1.8056173
+    },
+    {
+      "value": "iceandfire:armor_electric_boots",
+      "weight": 3220,
+      "quality": 11.866445
+    },
+    {
+      "value": "iceandfire:armor_gray_boots",
+      "weight": 3220,
+      "quality": 11.866445
+    },
+    {
+      "value": "iceandfire:armor_green_boots",
+      "weight": 3220,
+      "quality": 11.866445
+    },
+    {
+      "value": "iceandfire:armor_red_boots",
+      "weight": 3220,
+      "quality": 11.866445
+    },
+    {
+      "value": "iceandfire:armor_sapphire_boots",
+      "weight": 3220,
+      "quality": 11.866445
+    },
+    {
+      "value": "iceandfire:armor_silver_boots",
+      "weight": 3220,
+      "quality": 11.866445
+    },
+    {
+      "value": "iceandfire:armor_silver_metal_boots",
+      "weight": 31341,
+      "quality": 2.5244358
+    },
+    {
+      "value": "iceandfire:armor_white_boots",
+      "weight": 3220,
+      "quality": 11.866445
+    },
+    {
+      "value": "iceandfire:deathworm_red_boots",
+      "weight": 17184,
+      "quality": 6.366299
+    },
+    {
+      "value": "iceandfire:deathworm_white_boots",
+      "weight": 17184,
+      "quality": 6.366299
+    },
+    {
+      "value": "iceandfire:deathworm_yellow_boots",
+      "weight": 16953,
+      "quality": 6.443513
+    },
+    {
+      "value": "iceandfire:dragonsteel_fire_boots",
+      "weight": 1830,
+      "quality": 12.507008
+    },
+    {
+      "value": "iceandfire:dragonsteel_ice_boots",
+      "weight": 1830,
+      "quality": 12.507008
+    },
+    {
+      "value": "iceandfire:dragonsteel_lightning_boots",
+      "weight": 1830,
+      "quality": 12.507008
+    },
+    {
+      "value": "iceandfire:forest_troll_leather_boots",
+      "weight": 16806,
+      "quality": 6.493003
+    },
+    {
+      "value": "iceandfire:frost_troll_leather_boots",
+      "weight": 16806,
+      "quality": 6.493003
+    },
+    {
+      "value": "iceandfire:mountain_troll_leather_boots",
+      "weight": 16806,
+      "quality": 6.493003
+    },
+    {
+      "value": "iceandfire:sheep_boots",
+      "weight": 38296,
+      "quality": 1.2764363
+    },
+    {
+      "value": "iceandfire:tide_blue_boots",
+      "weight": 4920,
+      "quality": 11.106101
+    },
+    {
+      "value": "iceandfire:tide_bronze_boots",
+      "weight": 4920,
+      "quality": 11.106101
+    },
+    {
+      "value": "iceandfire:tide_deepblue_boots",
+      "weight": 4920,
+      "quality": 11.106101
+    },
+    {
+      "value": "iceandfire:tide_green_boots",
+      "weight": 4920,
+      "quality": 11.106101
+    },
+    {
+      "value": "iceandfire:tide_purple_boots",
+      "weight": 4920,
+      "quality": 11.106101
+    },
+    {
+      "value": "iceandfire:tide_red_boots",
+      "weight": 4920,
+      "quality": 11.106101
+    },
+    {
+      "value": "iceandfire:tide_teal_boots",
+      "weight": 4920,
+      "quality": 11.106101
+    },
+    {
+      "value": "kaleidoscope_cookery:farmer_boots",
+      "weight": 14928,
+      "quality": 7.1399965
+    },
+    {
+      "value": "minecraft:chainmail_boots",
+      "weight": 28450,
+      "quality": 3.167183
+    },
+    {
+      "value": "minecraft:diamond_boots",
+      "weight": 7097,
+      "quality": 10.169312
+    },
+    {
+      "value": "minecraft:golden_boots",
+      "weight": 27531,
+      "quality": 3.38665
+    },
+    {
+      "value": "minecraft:iron_boots",
+      "weight": 15628,
+      "quality": 6.8951907
+    },
+    {
+      "value": "minecraft:leather_boots",
+      "weight": 31892,
+      "quality": 2.4100657
+    },
+    {
+      "value": "minecraft:netherite_boots",
+      "weight": 6409,
+      "quality": 10.460651
+    },
+    {
+      "value": "projecte:dm_boots",
+      "weight": 9203,
+      "quality": 9.301941
+    },
+    {
+      "value": "projecte:gem_boots",
+      "weight": 9203,
+      "quality": 9.301941
+    },
+    {
+      "value": "projecte:rm_boots",
+      "weight": 9203,
+      "quality": 9.301941
+    },
+    {
+      "value": "twilightforest:arctic_boots",
+      "weight": 16008,
+      "quality": 6.7642093
+    },
+    {
+      "value": "twilightforest:fiery_boots",
+      "weight": 5302,
+      "quality": 10.938904
+    },
+    {
+      "value": "twilightforest:ironwood_boots",
+      "weight": 17548,
+      "quality": 6.245619
+    },
+    {
+      "value": "twilightforest:knightmetal_boots",
+      "weight": 9412,
+      "quality": 9.217927
+    },
+    {
+      "value": "twilightforest:steeleaf_boots",
+      "weight": 10101,
+      "quality": 8.943983
+    },
+    {
+      "value": "twilightforest:travellers_boots",
+      "weight": 21269,
+      "quality": 5.0784855
+    },
+    {
+      "value": "twilightforest:yeti_boots",
+      "weight": 7945,
+      "quality": 9.815511
+    },
+    {
+      "value": "vinery:winemaker_boots",
+      "weight": 38296,
+      "quality": 1.2764363
+    }
+  ],
+  "LEGS": [
+    {
+      "value": "alexscaves:diving_leggings",
+      "weight": 11435,
+      "quality": 3994.455
+    },
+    {
+      "value": "alexscaves:gingerbread_leggings",
+      "weight": 11555,
+      "quality": 3993.5024
+    },
+    {
+      "value": "alexscaves:hazmat_leggings",
+      "weight": 11368,
+      "quality": 3994.993
+    },
+    {
+      "value": "alexscaves:primordial_pants",
+      "weight": 32181,
+      "quality": 3830.9316
+    },
+    {
+      "value": "betterend:aeternium_leggings",
+      "weight": 4455,
+      "quality": 4050.2441
+    },
+    {
+      "value": "betterend:crystalite_leggings",
+      "weight": 11030,
+      "quality": 3997.683
+    },
+    {
+      "value": "betterend:terminite_leggings",
+      "weight": 6726,
+      "quality": 4032.048
+    },
+    {
+      "value": "betterend:thallasium_leggings",
+      "weight": 17225,
+      "quality": 3948.4692
+    },
+    {
+      "value": "brewery:brewfest_dress",
+      "weight": 72879,
+      "quality": 3520.0618
+    },
+    {
+      "value": "brewery:brewfest_trousers",
+      "weight": 72879,
+      "quality": 3520.0618
+    },
+    {
+      "value": "butchercraft:apron",
+      "weight": 138092,
+      "quality": 3049.3599
+    },
+    {
+      "value": "butchercraft:black_bunny_tail",
+      "weight": 133612,
+      "quality": 3080.6213
+    },
+    {
+      "value": "butchercraft:brown_bunny_tail",
+      "weight": 133612,
+      "quality": 3080.6213
+    },
+    {
+      "value": "butchercraft:gold_bunny_tail",
+      "weight": 133612,
+      "quality": 3080.6213
+    },
+    {
+      "value": "butchercraft:salt_bunny_tail",
+      "weight": 133612,
+      "quality": 3080.6213
+    },
+    {
+      "value": "butchercraft:splotched_bunny_tail",
+      "weight": 133612,
+      "quality": 3080.6213
+    },
+    {
+      "value": "butchercraft:white_bunny_tail",
+      "weight": 133612,
+      "quality": 3080.6213
+    },
+    {
+      "value": "create:cardboard_leggings",
+      "weight": 145875,
+      "quality": 2995.4385
+    },
+    {
+      "value": "create_sa:brass_leggings",
+      "weight": 10580,
+      "quality": 4001.266
+    },
+    {
+      "value": "create_sa:copper_leggings",
+      "weight": 10693,
+      "quality": 4000.3699
+    },
+    {
+      "value": "create_sa:zinc_leggings",
+      "weight": 10632,
+      "quality": 4000.8506
+    },
+    {
+      "value": "createnuclear:black_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:blue_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:brown_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:cyan_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:gray_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:green_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:light_blue_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:light_gray_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:lime_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:magenta_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:orange_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:pink_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:purple_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:red_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:white_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "createnuclear:yellow_anti_radiation_leggings",
+      "weight": 30429,
+      "quality": 3844.6025
+    },
+    {
+      "value": "farm_and_charm:dungarees",
+      "weight": 72879,
+      "quality": 3520.0618
+    },
+    {
+      "value": "iceandfire:armor_amethyst_leggings",
+      "weight": 4614,
+      "quality": 4048.9668
+    },
+    {
+      "value": "iceandfire:armor_black_leggings",
+      "weight": 4614,
+      "quality": 4048.9668
+    },
+    {
+      "value": "iceandfire:armor_blue_leggings",
+      "weight": 4614,
+      "quality": 4048.9668
+    },
+    {
+      "value": "iceandfire:armor_bronze_leggings",
+      "weight": 4614,
+      "quality": 4048.9668
+    },
+    {
+      "value": "iceandfire:armor_copper_leggings",
+      "weight": 4614,
+      "quality": 4048.9668
+    },
+    {
+      "value": "iceandfire:armor_copper_metal_leggings",
+      "weight": 30698,
+      "quality": 3842.5083
+    },
+    {
+      "value": "iceandfire:armor_electric_leggings",
+      "weight": 4614,
+      "quality": 4048.9668
+    },
+    {
+      "value": "iceandfire:armor_gray_leggings",
+      "weight": 4614,
+      "quality": 4048.9668
+    },
+    {
+      "value": "iceandfire:armor_green_leggings",
+      "weight": 4614,
+      "quality": 4048.9668
+    },
+    {
+      "value": "iceandfire:armor_red_leggings",
+      "weight": 4614,
+      "quality": 4048.9668
+    },
+    {
+      "value": "iceandfire:armor_sapphire_leggings",
+      "weight": 4614,
+      "quality": 4048.9668
+    },
+    {
+      "value": "iceandfire:armor_silver_leggings",
+      "weight": 4614,
+      "quality": 4048.9668
+    },
+    {
+      "value": "iceandfire:armor_silver_metal_leggings",
+      "weight": 17137,
+      "quality": 3949.1663
+    },
+    {
+      "value": "iceandfire:armor_white_leggings",
+      "weight": 4614,
+      "quality": 4048.9668
+    },
+    {
+      "value": "iceandfire:deathworm_red_leggings",
+      "weight": 10488,
+      "quality": 4001.9978
+    },
+    {
+      "value": "iceandfire:deathworm_white_leggings",
+      "weight": 10488,
+      "quality": 4001.9978
+    },
+    {
+      "value": "iceandfire:deathworm_yellow_leggings",
+      "weight": 10488,
+      "quality": 4001.9978
+    },
+    {
+      "value": "iceandfire:dragonsteel_fire_leggings",
+      "weight": 2307,
+      "quality": 4067.4873
+    },
+    {
+      "value": "iceandfire:dragonsteel_ice_leggings",
+      "weight": 2307,
+      "quality": 4067.4873
+    },
+    {
+      "value": "iceandfire:dragonsteel_lightning_leggings",
+      "weight": 2307,
+      "quality": 4067.4873
+    },
+    {
+      "value": "iceandfire:forest_troll_leather_leggings",
+      "weight": 10467,
+      "quality": 4002.1724
+    },
+    {
+      "value": "iceandfire:frost_troll_leather_leggings",
+      "weight": 10467,
+      "quality": 4002.1724
+    },
+    {
+      "value": "iceandfire:mountain_troll_leather_leggings",
+      "weight": 10467,
+      "quality": 4002.1724
+    },
+    {
+      "value": "iceandfire:sheep_leggings",
+      "weight": 31498,
+      "quality": 3836.2568
+    },
+    {
+      "value": "iceandfire:tide_blue_leggings",
+      "weight": 4572,
+      "quality": 4049.3066
+    },
+    {
+      "value": "iceandfire:tide_bronze_leggings",
+      "weight": 4572,
+      "quality": 4049.3066
+    },
+    {
+      "value": "iceandfire:tide_deepblue_leggings",
+      "weight": 4572,
+      "quality": 4049.3066
+    },
+    {
+      "value": "iceandfire:tide_green_leggings",
+      "weight": 4572,
+      "quality": 4049.3066
+    },
+    {
+      "value": "iceandfire:tide_purple_leggings",
+      "weight": 4572,
+      "quality": 4049.3066
+    },
+    {
+      "value": "iceandfire:tide_red_leggings",
+      "weight": 4572,
+      "quality": 4049.3066
+    },
+    {
+      "value": "iceandfire:tide_teal_leggings",
+      "weight": 4572,
+      "quality": 4049.3066
+    },
+    {
+      "value": "kaleidoscope_cookery:farmer_leggings",
+      "weight": 10239,
+      "quality": 4003.9836
+    },
+    {
+      "value": "minecraft:chainmail_leggings",
+      "weight": 14490,
+      "quality": 3970.1643
+    },
+    {
+      "value": "minecraft:diamond_leggings",
+      "weight": 5582,
+      "quality": 4041.2126
+    },
+    {
+      "value": "minecraft:golden_leggings",
+      "weight": 25170,
+      "quality": 3885.8057
+    },
+    {
+      "value": "minecraft:iron_leggings",
+      "weight": 8910,
+      "quality": 4014.5913
+    },
+    {
+      "value": "minecraft:leather_leggings",
+      "weight": 50383,
+      "quality": 3690.269
+    },
+    {
+      "value": "minecraft:netherite_leggings",
+      "weight": 5434,
+      "quality": 4042.3923
+    },
+    {
+      "value": "projecte:dm_leggings",
+      "weight": 7352,
+      "quality": 4027.0437
+    },
+    {
+      "value": "projecte:gem_leggings",
+      "weight": 7352,
+      "quality": 4027.0437
+    },
+    {
+      "value": "projecte:rm_leggings",
+      "weight": 7352,
+      "quality": 4027.0437
+    },
+    {
+      "value": "twilightforest:arctic_leggings",
+      "weight": 10372,
+      "quality": 4002.927
+    },
+    {
+      "value": "twilightforest:fiery_leggings",
+      "weight": 4672,
+      "quality": 4048.4993
+    },
+    {
+      "value": "twilightforest:ironwood_leggings",
+      "weight": 10556,
+      "quality": 4001.4624
+    },
+    {
+      "value": "twilightforest:knightmetal_leggings",
+      "weight": 6866,
+      "quality": 4030.93
+    },
+    {
+      "value": "twilightforest:naga_leggings",
+      "weight": 6860,
+      "quality": 4030.976
+    },
+    {
+      "value": "twilightforest:steeleaf_leggings",
+      "weight": 6980,
+      "quality": 4030.0159
+    },
+    {
+      "value": "twilightforest:travellers_belt",
+      "weight": 1006540,
+      "quality": 0.25
+    },
+    {
+      "value": "twilightforest:travellers_wings",
+      "weight": 32834,
+      "quality": 3825.8381
+    },
+    {
+      "value": "twilightforest:yeti_leggings",
+      "weight": 6582,
+      "quality": 4033.2017
+    },
+    {
+      "value": "vinery:winemaker_leggings",
+      "weight": 60473,
+      "quality": 3613.43
+    }
+  ],
+  "CHEST": [
+    {
+      "value": "alexscaves:cloak_of_darkness",
+      "weight": 24250,
+      "quality": 19862.223
+    },
+    {
+      "value": "alexscaves:diving_chestplate",
+      "weight": 16074,
+      "quality": 20014.201
+    },
+    {
+      "value": "alexscaves:gingerbread_chestplate",
+      "weight": 40007,
+      "quality": 19570.95
+    },
+    {
+      "value": "alexscaves:hazmat_chestplate",
+      "weight": 38948,
+      "quality": 19590.46
+    },
+    {
+      "value": "alexscaves:primordial_tunic",
+      "weight": 40007,
+      "quality": 19570.95
+    },
+    {
+      "value": "betterend:aeternium_chestplate",
+      "weight": 5155,
+      "quality": 20218.084
+    },
+    {
+      "value": "betterend:crystalite_chestplate",
+      "weight": 12313,
+      "quality": 20084.309
+    },
+    {
+      "value": "betterend:elytra_armored",
+      "weight": 7319,
+      "quality": 20177.602
+    },
+    {
+      "value": "betterend:elytra_crystalite",
+      "weight": 11154,
+      "quality": 20105.943
+    },
+    {
+      "value": "betterend:terminite_chestplate",
+      "weight": 9949,
+      "quality": 20128.459
+    },
+    {
+      "value": "betterend:thallasium_chestplate",
+      "weight": 22676,
+      "quality": 19891.445
+    },
+    {
+      "value": "brewery:brewfest_blouse",
+      "weight": 98476,
+      "quality": 18508.94
+    },
+    {
+      "value": "brewery:brewfest_regalia",
+      "weight": 98476,
+      "quality": 18508.94
+    },
+    {
+      "value": "butchercraft:gloves",
+      "weight": 313217,
+      "quality": 14862.643
+    },
+    {
+      "value": "crabbersdelight:pearl_necklace",
+      "weight": 309227,
+      "quality": 14926.75
+    },
+    {
+      "value": "create:cardboard_chestplate",
+      "weight": 310215,
+      "quality": 14910.861
+    },
+    {
+      "value": "create:copper_backtank",
+      "weight": 35334,
+      "quality": 19657.113
+    },
+    {
+      "value": "create:netherite_backtank",
+      "weight": 5819,
+      "quality": 20205.662
+    },
+    {
+      "value": "create_jetpack:jetpack",
+      "weight": 35334,
+      "quality": 19657.113
+    },
+    {
+      "value": "create_jetpack:netherite_jetpack",
+      "weight": 5819,
+      "quality": 20205.662
+    },
+    {
+      "value": "create_sa:andesite_exoskeleton_chestplate",
+      "weight": 10003,
+      "quality": 20127.434
+    },
+    {
+      "value": "create_sa:andesite_jetpack_chestplate",
+      "weight": 14517,
+      "quality": 20043.22
+    },
+    {
+      "value": "create_sa:brass_chestplate",
+      "weight": 10128,
+      "quality": 20125.104
+    },
+    {
+      "value": "create_sa:brass_exoskeleton_chestplate",
+      "weight": 7158,
+      "quality": 20180.61
+    },
+    {
+      "value": "create_sa:brass_jetpack_chestplate",
+      "weight": 15969,
+      "quality": 20016.17
+    },
+    {
+      "value": "create_sa:copper_chestplate",
+      "weight": 14887,
+      "quality": 20036.33
+    },
+    {
+      "value": "create_sa:copper_exoskeleton_chestplate",
+      "weight": 14517,
+      "quality": 20043.22
+    },
+    {
+      "value": "create_sa:copper_jetpack_chestplate",
+      "weight": 14517,
+      "quality": 20043.22
+    },
+    {
+      "value": "create_sa:netherite_exoskeleton_chestplate",
+      "weight": 5199,
+      "quality": 20217.264
+    },
+    {
+      "value": "create_sa:netherite_jetpack_chestplate",
+      "weight": 6998,
+      "quality": 20183.596
+    },
+    {
+      "value": "create_sa:zinc_chestplate",
+      "weight": 14831,
+      "quality": 20037.371
+    },
+    {
+      "value": "createnuclear:black_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:blue_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:brown_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:cyan_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:gray_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:green_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:light_blue_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:light_gray_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:lime_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:magenta_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:orange_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:pink_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:purple_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:red_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:white_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "createnuclear:yellow_anti_radiation_chestplate",
+      "weight": 37202,
+      "quality": 19622.643
+    },
+    {
+      "value": "iceandfire:armor_amethyst_chestplate",
+      "weight": 5253,
+      "quality": 20216.252
+    },
+    {
+      "value": "iceandfire:armor_black_chestplate",
+      "weight": 5253,
+      "quality": 20216.252
+    },
+    {
+      "value": "iceandfire:armor_blue_chestplate",
+      "weight": 5253,
+      "quality": 20216.252
+    },
+    {
+      "value": "iceandfire:armor_bronze_chestplate",
+      "weight": 5253,
+      "quality": 20216.252
+    },
+    {
+      "value": "iceandfire:armor_copper_chestplate",
+      "weight": 5253,
+      "quality": 20216.252
+    },
+    {
+      "value": "iceandfire:armor_copper_metal_chestplate",
+      "weight": 37403,
+      "quality": 19618.945
+    },
+    {
+      "value": "iceandfire:armor_electric_chestplate",
+      "weight": 5253,
+      "quality": 20216.252
+    },
+    {
+      "value": "iceandfire:armor_gray_chestplate",
+      "weight": 5253,
+      "quality": 20216.252
+    },
+    {
+      "value": "iceandfire:armor_green_chestplate",
+      "weight": 5253,
+      "quality": 20216.252
+    },
+    {
+      "value": "iceandfire:armor_red_chestplate",
+      "weight": 5253,
+      "quality": 20216.252
+    },
+    {
+      "value": "iceandfire:armor_sapphire_chestplate",
+      "weight": 5253,
+      "quality": 20216.252
+    },
+    {
+      "value": "iceandfire:armor_silver_chestplate",
+      "weight": 5253,
+      "quality": 20216.252
+    },
+    {
+      "value": "iceandfire:armor_silver_metal_chestplate",
+      "weight": 22604,
+      "quality": 19892.766
+    },
+    {
+      "value": "iceandfire:armor_white_chestplate",
+      "weight": 5253,
+      "quality": 20216.252
+    },
+    {
+      "value": "iceandfire:deathworm_red_chestplate",
+      "weight": 10090,
+      "quality": 20125.81
+    },
+    {
+      "value": "iceandfire:deathworm_white_chestplate",
+      "weight": 10090,
+      "quality": 20125.81
+    },
+    {
+      "value": "iceandfire:deathworm_yellow_chestplate",
+      "weight": 10090,
+      "quality": 20125.81
+    },
+    {
+      "value": "iceandfire:dragonsteel_fire_chestplate",
+      "weight": 2383,
+      "quality": 20270.01
+    },
+    {
+      "value": "iceandfire:dragonsteel_ice_chestplate",
+      "weight": 2383,
+      "quality": 20270.01
+    },
+    {
+      "value": "iceandfire:dragonsteel_lightning_chestplate",
+      "weight": 2383,
+      "quality": 20270.01
+    },
+    {
+      "value": "iceandfire:forest_troll_leather_chestplate",
+      "weight": 10080,
+      "quality": 20125.996
+    },
+    {
+      "value": "iceandfire:frost_troll_leather_chestplate",
+      "weight": 10080,
+      "quality": 20125.996
+    },
+    {
+      "value": "iceandfire:mountain_troll_leather_chestplate",
+      "weight": 10080,
+      "quality": 20125.996
+    },
+    {
+      "value": "iceandfire:sheep_chestplate",
+      "weight": 129119,
+      "quality": 17964.18
+    },
+    {
+      "value": "iceandfire:tide_blue_chestplate",
+      "weight": 7050,
+      "quality": 20182.635
+    },
+    {
+      "value": "iceandfire:tide_bronze_chestplate",
+      "weight": 7050,
+      "quality": 20182.635
+    },
+    {
+      "value": "iceandfire:tide_deepblue_chestplate",
+      "weight": 7050,
+      "quality": 20182.635
+    },
+    {
+      "value": "iceandfire:tide_green_chestplate",
+      "weight": 7050,
+      "quality": 20182.635
+    },
+    {
+      "value": "iceandfire:tide_purple_chestplate",
+      "weight": 7050,
+      "quality": 20182.635
+    },
+    {
+      "value": "iceandfire:tide_red_chestplate",
+      "weight": 7050,
+      "quality": 20182.635
+    },
+    {
+      "value": "iceandfire:tide_teal_chestplate",
+      "weight": 7050,
+      "quality": 20182.635
+    },
+    {
+      "value": "kaleidoscope_cookery:farmer_chest_plate",
+      "weight": 34971,
+      "quality": 19663.81
+    },
+    {
+      "value": "kaleidoscope_nether:ghast_pendant",
+      "weight": 48307,
+      "quality": 19418.387
+    },
+    {
+      "value": "minecraft:chainmail_chestplate",
+      "weight": 19005,
+      "quality": 19959.658
+    },
+    {
+      "value": "minecraft:diamond_chestplate",
+      "weight": 5929,
+      "quality": 20203.594
+    },
+    {
+      "value": "minecraft:elytra",
+      "weight": 411430,
+      "quality": 13328.175
+    },
+    {
+      "value": "minecraft:golden_chestplate",
+      "weight": 18964,
+      "quality": 19960.418
+    },
+    {
+      "value": "minecraft:iron_chestplate",
+      "weight": 12405,
+      "quality": 20082.592
+    },
+    {
+      "value": "minecraft:leather_chestplate",
+      "weight": 56142,
+      "quality": 19274.926
+    },
+    {
+      "value": "minecraft:netherite_chestplate",
+      "weight": 5850,
+      "quality": 20205.072
+    },
+    {
+      "value": "projecte:dm_chestplate",
+      "weight": 7823,
+      "quality": 20168.186
+    },
+    {
+      "value": "projecte:gem_chestplate",
+      "weight": 7823,
+      "quality": 20168.186
+    },
+    {
+      "value": "projecte:rm_chestplate",
+      "weight": 7823,
+      "quality": 20168.186
+    },
+    {
+      "value": "quark:backpack",
+      "weight": 859269,
+      "quality": 7390.698
+    },
+    {
+      "value": "twilightforest:arctic_chestplate",
+      "weight": 10041,
+      "quality": 20126.727
+    },
+    {
+      "value": "twilightforest:fiery_chestplate",
+      "weight": 5288,
+      "quality": 20215.588
+    },
+    {
+      "value": "twilightforest:ironwood_chestplate",
+      "weight": 10118,
+      "quality": 20125.291
+    },
+    {
+      "value": "twilightforest:knightmetal_chestplate",
+      "weight": 7203,
+      "quality": 20179.764
+    },
+    {
+      "value": "twilightforest:naga_chestplate",
+      "weight": 10086,
+      "quality": 20125.879
+    },
+    {
+      "value": "twilightforest:phantom_chestplate",
+      "weight": 7092,
+      "quality": 20181.846
+    },
+    {
+      "value": "twilightforest:steeleaf_chestplate",
+      "weight": 7263,
+      "quality": 20178.65
+    },
+    {
+      "value": "twilightforest:travellers_gloves",
+      "weight": 2157720,
+      "quality": 0.25
+    },
+    {
+      "value": "twilightforest:travellers_vest",
+      "weight": 38823,
+      "quality": 19592.754
+    },
+    {
+      "value": "twilightforest:yeti_chestplate",
+      "weight": 9802,
+      "quality": 20131.188
+    },
+    {
+      "value": "vinery:winemaker_apron",
+      "weight": 67382,
+      "quality": 19070.031
+    }
+  ],
+  "HEAD": [
+    {
+      "value": "alexscaves:diving_helmet",
+      "weight": 23739,
+      "quality": 157.57263
+    },
+    {
+      "value": "alexscaves:gingerbread_helmet",
+      "weight": 24831,
+      "quality": 156.81778
+    },
+    {
+      "value": "alexscaves:hazmat_mask",
+      "weight": 23058,
+      "quality": 158.04419
+    },
+    {
+      "value": "alexscaves:hood_of_darkness",
+      "weight": 7615,
+      "quality": 168.93144
+    },
+    {
+      "value": "alexscaves:primordial_helmet",
+      "weight": 13619,
+      "quality": 164.65562
+    },
+    {
+      "value": "betterend:aeternium_helmet",
+      "weight": 5933,
+      "quality": 170.13905
+    },
+    {
+      "value": "betterend:crystalite_helmet",
+      "weight": 15413,
+      "quality": 163.38866
+    },
+    {
+      "value": "betterend:terminite_helmet",
+      "weight": 11407,
+      "quality": 166.22426
+    },
+    {
+      "value": "betterend:thallasium_helmet",
+      "weight": 23562,
+      "quality": 157.69557
+    },
+    {
+      "value": "brewery:brewfest_hat",
+      "weight": 30405,
+      "quality": 152.99272
+    },
+    {
+      "value": "brewery:brewfest_hat_red",
+      "weight": 30405,
+      "quality": 152.99272
+    },
+    {
+      "value": "butchercraft:black_bunny_ears",
+      "weight": 57436,
+      "quality": 135.1111
+    },
+    {
+      "value": "butchercraft:brown_bunny_ears",
+      "weight": 57436,
+      "quality": 135.1111
+    },
+    {
+      "value": "butchercraft:chicken_mask",
+      "weight": 57436,
+      "quality": 135.1111
+    },
+    {
+      "value": "butchercraft:cow_hood",
+      "weight": 57436,
+      "quality": 135.1111
+    },
+    {
+      "value": "butchercraft:goat_hood",
+      "weight": 57436,
+      "quality": 135.1111
+    },
+    {
+      "value": "butchercraft:gold_bunny_ears",
+      "weight": 57436,
+      "quality": 135.1111
+    },
+    {
+      "value": "butchercraft:mask",
+      "weight": 59989,
+      "quality": 133.47986
+    },
+    {
+      "value": "butchercraft:paper_hat",
+      "weight": 54535,
+      "quality": 136.97682
+    },
+    {
+      "value": "butchercraft:pig_hood",
+      "weight": 57436,
+      "quality": 135.1111
+    },
+    {
+      "value": "butchercraft:salt_bunny_ears",
+      "weight": 57436,
+      "quality": 135.1111
+    },
+    {
+      "value": "butchercraft:sheep_hood",
+      "weight": 57436,
+      "quality": 135.1111
+    },
+    {
+      "value": "butchercraft:splotched_bunny_ears",
+      "weight": 57436,
+      "quality": 135.1111
+    },
+    {
+      "value": "butchercraft:white_bunny_ears",
+      "weight": 57436,
+      "quality": 135.1111
+    },
+    {
+      "value": "corn_delight:cob_pipe",
+      "weight": 460888,
+      "quality": 0.25
+    },
+    {
+      "value": "crabbersdelight:coconut_helmet",
+      "weight": 15701,
+      "quality": 163.18561
+    },
+    {
+      "value": "create:cardboard_helmet",
+      "weight": 63199,
+      "quality": 131.4426
+    },
+    {
+      "value": "create:copper_diving_helmet",
+      "weight": 26728,
+      "quality": 155.51088
+    },
+    {
+      "value": "create:goggles",
+      "weight": 460888,
+      "quality": 0.25
+    },
+    {
+      "value": "create:netherite_diving_helmet",
+      "weight": 8438,
+      "quality": 168.3422
+    },
+    {
+      "value": "create_sa:brass_helmet",
+      "weight": 23621,
+      "quality": 157.6548
+    },
+    {
+      "value": "create_sa:copper_helmet",
+      "weight": 24831,
+      "quality": 156.81778
+    },
+    {
+      "value": "create_sa:slime_helmet",
+      "weight": 26803,
+      "quality": 155.45874
+    },
+    {
+      "value": "create_sa:zinc_helmet",
+      "weight": 24180,
+      "quality": 157.26791
+    },
+    {
+      "value": "createbigcannons:traffic_cone",
+      "weight": 460888,
+      "quality": 0.25
+    },
+    {
+      "value": "createnuclear:black_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:blue_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:brown_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:cyan_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:gray_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:green_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:light_blue_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:light_gray_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:lime_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:magenta_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:orange_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:pink_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:purple_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:red_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:white_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "createnuclear:yellow_anti_radiation_helmet",
+      "weight": 24304,
+      "quality": 157.18188
+    },
+    {
+      "value": "herbalbrews:top_hat",
+      "weight": 25330,
+      "quality": 156.47322
+    },
+    {
+      "value": "herbalbrews:witch_hat",
+      "weight": 25330,
+      "quality": 156.47322
+    },
+    {
+      "value": "iceandfire:armor_amethyst_helmet",
+      "weight": 4215,
+      "quality": 171.37689
+    },
+    {
+      "value": "iceandfire:armor_black_helmet",
+      "weight": 4215,
+      "quality": 171.37689
+    },
+    {
+      "value": "iceandfire:armor_blue_helmet",
+      "weight": 4215,
+      "quality": 171.37689
+    },
+    {
+      "value": "iceandfire:armor_bronze_helmet",
+      "weight": 4215,
+      "quality": 171.37689
+    },
+    {
+      "value": "iceandfire:armor_copper_helmet",
+      "weight": 4215,
+      "quality": 171.37689
+    },
+    {
+      "value": "iceandfire:armor_copper_metal_helmet",
+      "weight": 24589,
+      "quality": 156.98517
+    },
+    {
+      "value": "iceandfire:armor_electric_helmet",
+      "weight": 4215,
+      "quality": 171.37689
+    },
+    {
+      "value": "iceandfire:armor_gray_helmet",
+      "weight": 4215,
+      "quality": 171.37689
+    },
+    {
+      "value": "iceandfire:armor_green_helmet",
+      "weight": 4215,
+      "quality": 171.37689
+    },
+    {
+      "value": "iceandfire:armor_red_helmet",
+      "weight": 4215,
+      "quality": 171.37689
+    },
+    {
+      "value": "iceandfire:armor_sapphire_helmet",
+      "weight": 4215,
+      "quality": 171.37689
+    },
+    {
+      "value": "iceandfire:armor_silver_helmet",
+      "weight": 4215,
+      "quality": 171.37689
+    },
+    {
+      "value": "iceandfire:armor_silver_metal_helmet",
+      "weight": 23172,
+      "quality": 157.96582
+    },
+    {
+      "value": "iceandfire:armor_white_helmet",
+      "weight": 4215,
+      "quality": 171.37689
+    },
+    {
+      "value": "iceandfire:blindfold",
+      "weight": 54535,
+      "quality": 136.97682
+    },
+    {
+      "value": "iceandfire:deathworm_red_helmet",
+      "weight": 12330,
+      "quality": 165.56868
+    },
+    {
+      "value": "iceandfire:deathworm_white_helmet",
+      "weight": 12330,
+      "quality": 165.56868
+    },
+    {
+      "value": "iceandfire:deathworm_yellow_helmet",
+      "weight": 12330,
+      "quality": 165.56868
+    },
+    {
+      "value": "iceandfire:dragonsteel_fire_helmet",
+      "weight": 1734,
+      "quality": 173.17297
+    },
+    {
+      "value": "iceandfire:dragonsteel_ice_helmet",
+      "weight": 1734,
+      "quality": 173.17297
+    },
+    {
+      "value": "iceandfire:dragonsteel_lightning_helmet",
+      "weight": 1734,
+      "quality": 173.17297
+    },
+    {
+      "value": "iceandfire:earplugs",
+      "weight": 54535,
+      "quality": 136.97682
+    },
+    {
+      "value": "iceandfire:forest_troll_leather_helmet",
+      "weight": 12286,
+      "quality": 165.59998
+    },
+    {
+      "value": "iceandfire:frost_troll_leather_helmet",
+      "weight": 12286,
+      "quality": 165.59998
+    },
+    {
+      "value": "iceandfire:mountain_troll_leather_helmet",
+      "weight": 12286,
+      "quality": 165.59998
+    },
+    {
+      "value": "iceandfire:sheep_helmet",
+      "weight": 50797,
+      "quality": 139.40002
+    },
+    {
+      "value": "iceandfire:tide_blue_helmet",
+      "weight": 6450,
+      "quality": 169.7671
+    },
+    {
+      "value": "iceandfire:tide_bronze_helmet",
+      "weight": 6450,
+      "quality": 169.7671
+    },
+    {
+      "value": "iceandfire:tide_deepblue_helmet",
+      "weight": 6450,
+      "quality": 169.7671
+    },
+    {
+      "value": "iceandfire:tide_green_helmet",
+      "weight": 6450,
+      "quality": 169.7671
+    },
+    {
+      "value": "iceandfire:tide_purple_helmet",
+      "weight": 6450,
+      "quality": 169.7671
+    },
+    {
+      "value": "iceandfire:tide_red_helmet",
+      "weight": 6450,
+      "quality": 169.7671
+    },
+    {
+      "value": "iceandfire:tide_teal_helmet",
+      "weight": 6450,
+      "quality": 169.7671
+    },
+    {
+      "value": "kaleidoscope_cookery:straw_hat",
+      "weight": 25330,
+      "quality": 156.47322
+    },
+    {
+      "value": "kaleidoscope_cookery:straw_hat_flower",
+      "weight": 25330,
+      "quality": 156.47322
+    },
+    {
+      "value": "minecraft:chainmail_helmet",
+      "weight": 20253,
+      "quality": 159.99475
+    },
+    {
+      "value": "minecraft:diamond_helmet",
+      "weight": 9348,
+      "quality": 167.6918
+    },
+    {
+      "value": "minecraft:golden_helmet",
+      "weight": 19797,
+      "quality": 160.3131
+    },
+    {
+      "value": "minecraft:iron_helmet",
+      "weight": 20686,
+      "quality": 159.69334
+    },
+    {
+      "value": "minecraft:leather_helmet",
+      "weight": 42321,
+      "quality": 144.97273
+    },
+    {
+      "value": "minecraft:netherite_helmet",
+      "weight": 8438,
+      "quality": 168.3422
+    },
+    {
+      "value": "minecraft:shulker_shell",
+      "weight": 193809,
+      "quality": 61.838203
+    },
+    {
+      "value": "minecraft:turtle_helmet",
+      "weight": 19684,
+      "quality": 160.39229
+    },
+    {
+      "value": "projecte:dm_helmet",
+      "weight": 11998,
+      "quality": 165.80484
+    },
+    {
+      "value": "projecte:gem_helmet",
+      "weight": 11998,
+      "quality": 165.80484
+    },
+    {
+      "value": "projecte:rm_helmet",
+      "weight": 11998,
+      "quality": 165.80484
+    },
+    {
+      "value": "quark:forgotten_hat",
+      "weight": 20584,
+      "quality": 159.76399
+    },
+    {
+      "value": "ratatouille:chef_hat",
+      "weight": 460888,
+      "quality": 0.25
+    },
+    {
+      "value": "ratatouille:chef_hat_with_goggles",
+      "weight": 460888,
+      "quality": 0.25
+    },
+    {
+      "value": "twilightforest:arctic_helmet",
+      "weight": 21090,
+      "quality": 159.41191
+    },
+    {
+      "value": "twilightforest:creeper_skull_candle",
+      "weight": 460888,
+      "quality": 0.25
+    },
+    {
+      "value": "twilightforest:fiery_helmet",
+      "weight": 6950,
+      "quality": 169.40851
+    },
+    {
+      "value": "twilightforest:ironwood_helmet",
+      "weight": 23243,
+      "quality": 157.91641
+    },
+    {
+      "value": "twilightforest:knightmetal_helmet",
+      "weight": 12379,
+      "quality": 165.53429
+    },
+    {
+      "value": "twilightforest:mystic_crown",
+      "weight": 23665,
+      "quality": 157.62408
+    },
+    {
+      "value": "twilightforest:phantom_helmet",
+      "weight": 10916,
+      "quality": 166.57349
+    },
+    {
+      "value": "twilightforest:piglin_skull_candle",
+      "weight": 460888,
+      "quality": 0.25
+    },
+    {
+      "value": "twilightforest:player_skull_candle",
+      "weight": 460888,
+      "quality": 0.25
+    },
+    {
+      "value": "twilightforest:skeleton_skull_candle",
+      "weight": 460888,
+      "quality": 0.25
+    },
+    {
+      "value": "twilightforest:steeleaf_helmet",
+      "weight": 13251,
+      "quality": 164.91591
+    },
+    {
+      "value": "twilightforest:travellers_goggles",
+      "weight": 28162,
+      "quality": 154.52634
+    },
+    {
+      "value": "twilightforest:wither_skeleton_skull_candle",
+      "weight": 460888,
+      "quality": 0.25
+    },
+    {
+      "value": "twilightforest:yeti_helmet",
+      "weight": 6455,
+      "quality": 169.76395
+    },
+    {
+      "value": "twilightforest:zombie_skull_candle",
+      "weight": 460888,
+      "quality": 0.25
+    },
+    {
+      "value": "vinery:straw_hat",
+      "weight": 50797,
+      "quality": 139.40002
+    }
+  ]
+}

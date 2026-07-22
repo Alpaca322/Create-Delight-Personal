@@ -1,0 +1,1001 @@
+========= TaskAnalysisReport =========
+Time: 2026-07-20 16:42:33
+GameVersion: 1.21.1
+ModLoaderVersion: 21.1.240
+Maidsoul KitchenVersion: 0.1.4
+Touhou Little MaidVersion: neoforge+mc1.21.1
+ModState: [Success] Congratulations, there were no problems with this run, and we wish you a great time!
+ActualVersionWithCurrentCompatibleMod£º
+- minecraft: 1.21.1
+- sereneseasons: 10.1.0.3
+- eclipticseasons: 0.13.9.6
+- farmersdelight: 1.3.2
+- brewinandchewin: 4.5.0
+- cuisinedelight: 1.2.10
+- l2harvester: 3.0.0
+- barbequesdelight: 1.3.0
+
+===== GlobalStatistics =====
+ClassesCount: 42
+MethodCount: 46
+FieldCount: 35
+MixinCount: 3
+Errors: 0
+
+===== ErrorTasks =====
+Count: 0
+
+===== TaskDetails =====
+
+## TaskId£º maidsoulkitchen:eclipticseasons_farm¡¢ModId£º eclipticseasons¡¢ModVersion£º 0.13.9.6
+### ClassStatistics
+ClassesCount: 6
+MethodCount: 5
+FieldCount: 1
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+[Success] com.teamtea.eclipticseasons.api.EclipticSeasonsApi
+[Success] com.teamtea.eclipticseasons.api.constant.crop.CropSeasonInfo
+[Success] com.teamtea.eclipticseasons.api.constant.solar.Season
+[Success] com.teamtea.eclipticseasons.api.constant.solar.SolarTerm
+[Success] com.teamtea.eclipticseasons.common.core.crop.CropInfoManager
+[Success] com.teamtea.eclipticseasons.config.CommonConfig$Crop
+
+#### MethodsList 
+[Success] com.teamtea.eclipticseasons.api.EclipticSeasonsApi#getInstance()Lcom/teamtea/eclipticseasons/api/EclipticSeasonsApi;
+[Success] com.teamtea.eclipticseasons.api.EclipticSeasonsApi#getSolarTerm(Lnet/minecraft/world/level/Level;)Lcom/teamtea/eclipticseasons/api/constant/solar/SolarTerm;
+[Success] com.teamtea.eclipticseasons.api.constant.crop.CropSeasonInfo#isSuitable(Lcom/teamtea/eclipticseasons/api/constant/solar/Season;)Z
+[Success] com.teamtea.eclipticseasons.api.constant.solar.SolarTerm#getSeason()Lcom/teamtea/eclipticseasons/api/constant/solar/Season;
+[Success] com.teamtea.eclipticseasons.common.core.crop.CropInfoManager#getSeasonInfo(Lnet/minecraft/world/level/block/Block;)Lcom/teamtea/eclipticseasons/api/constant/crop/CropSeasonInfo;
+
+#### FieldList
+[Success] com.teamtea.eclipticseasons.config.CommonConfig$Crop#enableCrop
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:fruit_compat¡¢ModId£º minecraft¡¢ModVersion£º 1.21.1
+### ClassStatistics
+ClassesCount: 0
+MethodCount: 0
+FieldCount: 0
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+NoClassesFound
+
+#### MethodsList 
+NoMethodFound
+
+#### FieldList
+NoFieldsFound
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:brewinandchewin_keg_fermenting¡¢ModId£º brewinandchewin¡¢ModVersion£º 4.5.0
+### ClassStatistics
+ClassesCount: 3
+MethodCount: 3
+FieldCount: 2
+MixinCount: 1
+Errors: 0
+
+#### ClassesList
+[Success] umpaz.brewinandchewin.common.block.entity.KegBlockEntity
+[Success] umpaz.brewinandchewin.common.crafting.KegFermentingRecipe
+[Success] umpaz.brewinandchewin.common.utility.KegRecipeWrapper
+
+#### MethodsList 
+[Success] umpaz.brewinandchewin.common.block.entity.KegBlockEntity#canFerment(Lumpaz/brewinandchewin/common/crafting/KegFermentingRecipe;Lumpaz/brewinandchewin/common/block/entity/KegBlockEntity;)Z
+[Success] umpaz.brewinandchewin.common.block.entity.KegBlockEntity#getMatchingRecipe(Lumpaz/brewinandchewin/common/utility/KegRecipeWrapper;)Ljava/util/Optional;
+[Success] umpaz.brewinandchewin.common.block.entity.KegBlockEntity#getUsedRecipesAndPopExperience(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;)Ljava/util/List;
+
+#### FieldList
+[Success] umpaz.brewinandchewin.common.block.entity.KegBlockEntity#recipeWrapper
+[Success] umpaz.brewinandchewin.common.block.entity.KegBlockEntity#usedRecipeTracker
+
+#### MixinList
+[Success] umpaz.brewinandchewin.common.block.entity.KegBlockEntity
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:fruit_farm¡¢ModId£º minecraft¡¢ModVersion£º 1.21.1
+### ClassStatistics
+ClassesCount: 0
+MethodCount: 0
+FieldCount: 0
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+NoClassesFound
+
+#### MethodsList 
+NoMethodFound
+
+#### FieldList
+NoFieldsFound
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:barbequesdelight_basin_skewering¡¢ModId£º barbequesdelight¡¢ModVersion£º 1.3.0
+### ClassStatistics
+ClassesCount: 8
+MethodCount: 5
+FieldCount: 6
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+[Success] com.mao.barbequesdelight.content.block.BasinBlockEntity
+[Success] com.mao.barbequesdelight.content.block.StorageTileContainer
+[Success] com.mao.barbequesdelight.content.recipe.SimpleSkeweringRecipe
+[Success] com.mao.barbequesdelight.content.recipe.SkeweringInput
+[Success] com.mao.barbequesdelight.init.registrate.BBQDBlocks
+[Success] com.mao.barbequesdelight.init.registrate.BBQDRecipes
+[Success] com.tterrag.registrate.util.entry.BlockEntry
+[Success] dev.xkmc.l2core.init.reg.simple.Val
+
+#### MethodsList 
+[Success] com.mao.barbequesdelight.content.block.BasinBlockEntity#notifyTile()V
+[Success] com.mao.barbequesdelight.content.block.StorageTileContainer#getAsList()Ljava/util/List;
+[Success] com.mao.barbequesdelight.content.recipe.SkeweringInput#<init>(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V
+[Success] com.tterrag.registrate.util.entry.BlockEntry#asStack()Lnet/minecraft/world/item/ItemStack;
+[Success] dev.xkmc.l2core.init.reg.simple.Val#get()Ljava/lang/Object;
+
+#### FieldList
+[Success] com.mao.barbequesdelight.content.block.BasinBlockEntity#items
+[Success] com.mao.barbequesdelight.content.recipe.SimpleSkeweringRecipe#ingredient
+[Success] com.mao.barbequesdelight.content.recipe.SimpleSkeweringRecipe#side
+[Success] com.mao.barbequesdelight.content.recipe.SimpleSkeweringRecipe#tool
+[Success] com.mao.barbequesdelight.init.registrate.BBQDBlocks#BASIN
+[Success] com.mao.barbequesdelight.init.registrate.BBQDRecipes#RT_SKR
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:minecraft_furnace_smelting¡¢ModId£º minecraft¡¢ModVersion£º 1.21.1
+### ClassStatistics
+ClassesCount: 0
+MethodCount: 0
+FieldCount: 0
+MixinCount: 1
+Errors: 0
+
+#### ClassesList
+NoClassesFound
+
+#### MethodsList 
+NoMethodFound
+
+#### FieldList
+NoFieldsFound
+
+#### MixinList
+[Success] net.minecraft.world.level.block.entity.AbstractFurnaceBlockEntity
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:berries_farm¡¢ModId£º minecraft¡¢ModVersion£º 1.21.1
+### ClassStatistics
+ClassesCount: 0
+MethodCount: 0
+FieldCount: 0
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+NoClassesFound
+
+#### MethodsList 
+NoMethodFound
+
+#### FieldList
+NoFieldsFound
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:feed_animal_t¡¢ModId£º minecraft¡¢ModVersion£º 1.21.1
+### ClassStatistics
+ClassesCount: 0
+MethodCount: 0
+FieldCount: 0
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+NoClassesFound
+
+#### MethodsList 
+NoMethodFound
+
+#### FieldList
+NoFieldsFound
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:sereneseasons_farm¡¢ModId£º sereneseasons¡¢ModVersion£º 10.1.0.3
+### ClassStatistics
+ClassesCount: 3
+MethodCount: 3
+FieldCount: 0
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+[Success] sereneseasons.api.season.ISeasonState
+[Success] sereneseasons.api.season.Season
+[Success] sereneseasons.api.season.SeasonHelper
+
+#### MethodsList 
+[Success] sereneseasons.api.season.ISeasonState#getSeason()Lsereneseasons/api/season/Season;
+[Success] sereneseasons.api.season.Season#name()Ljava/lang/String;
+[Success] sereneseasons.api.season.SeasonHelper#getSeasonState(Lnet/minecraft/world/level/Level;)Lsereneseasons/api/season/ISeasonState;
+
+#### FieldList
+NoFieldsFound
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:barbequesdelight_grill_grilling¡¢ModId£º barbequesdelight¡¢ModVersion£º 1.3.0
+### ClassStatistics
+ClassesCount: 8
+MethodCount: 7
+FieldCount: 9
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+[Success] com.mao.barbequesdelight.content.block.GrillBlockEntity
+[Success] com.mao.barbequesdelight.content.block.GrillBlockEntity$ItemEntry
+[Success] com.mao.barbequesdelight.content.recipe.SimpleGrillingRecipe
+[Success] com.mao.barbequesdelight.init.registrate.BBQDBlocks
+[Success] com.mao.barbequesdelight.init.registrate.BBQDItems
+[Success] com.mao.barbequesdelight.init.registrate.BBQDRecipes
+[Success] com.tterrag.registrate.util.entry.BlockEntry
+[Success] dev.xkmc.l2core.init.reg.simple.Val
+
+#### MethodsList 
+[Success] com.mao.barbequesdelight.content.block.GrillBlockEntity#inventoryChanged()V
+[Success] com.mao.barbequesdelight.content.block.GrillBlockEntity#isHeated()Z
+[Success] com.mao.barbequesdelight.content.block.GrillBlockEntity$ItemEntry#addItem(Lcom/mao/barbequesdelight/content/block/GrillBlockEntity;Lnet/minecraft/world/item/ItemStack;)Z
+[Success] com.mao.barbequesdelight.content.block.GrillBlockEntity$ItemEntry#canFlip()Z
+[Success] com.mao.barbequesdelight.content.block.GrillBlockEntity$ItemEntry#flip(Lcom/mao/barbequesdelight/content/block/GrillBlockEntity;)Z
+[Success] com.tterrag.registrate.util.entry.BlockEntry#asStack()Lnet/minecraft/world/item/ItemStack;
+[Success] dev.xkmc.l2core.init.reg.simple.Val#get()Ljava/lang/Object;
+
+#### FieldList
+[Success] com.mao.barbequesdelight.content.block.GrillBlockEntity#entries
+[Success] com.mao.barbequesdelight.content.block.GrillBlockEntity$ItemEntry#duration
+[Success] com.mao.barbequesdelight.content.block.GrillBlockEntity$ItemEntry#flipped
+[Success] com.mao.barbequesdelight.content.block.GrillBlockEntity$ItemEntry#stack
+[Success] com.mao.barbequesdelight.content.block.GrillBlockEntity$ItemEntry#time
+[Success] com.mao.barbequesdelight.content.recipe.SimpleGrillingRecipe#ingredient
+[Success] com.mao.barbequesdelight.init.registrate.BBQDBlocks#GRILL
+[Success] com.mao.barbequesdelight.init.registrate.BBQDItems#BURNT_FOOD
+[Success] com.mao.barbequesdelight.init.registrate.BBQDRecipes#RT_BBQ
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:berry_minecraft¡¢ModId£º minecraft¡¢ModVersion£º 1.21.1
+### ClassStatistics
+ClassesCount: 0
+MethodCount: 0
+FieldCount: 0
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+NoClassesFound
+
+#### MethodsList 
+NoMethodFound
+
+#### FieldList
+NoFieldsFound
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:berry_compat¡¢ModId£º minecraft¡¢ModVersion£º 1.21.1
+### ClassStatistics
+ClassesCount: 0
+MethodCount: 0
+FieldCount: 0
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+NoClassesFound
+
+#### MethodsList 
+NoMethodFound
+
+#### FieldList
+NoFieldsFound
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:cuisinedelight_cuisine_skillet_cuisine¡¢ModId£º cuisinedelight¡¢ModVersion£º 1.2.10
+### ClassStatistics
+ClassesCount: 12
+MethodCount: 12
+FieldCount: 10
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+[Success] com.tterrag.registrate.util.entry.BlockEntry
+[Success] dev.xkmc.cuisinedelight.content.block.CuisineSkilletBlockEntity
+[Success] dev.xkmc.cuisinedelight.content.logic.CookedFoodData
+[Success] dev.xkmc.cuisinedelight.content.logic.CookingData
+[Success] dev.xkmc.cuisinedelight.content.logic.IngredientConfig
+[Success] dev.xkmc.cuisinedelight.content.logic.IngredientConfig$IngredientEntry
+[Success] dev.xkmc.cuisinedelight.content.recipe.BaseCuisineRecipe
+[Success] dev.xkmc.cuisinedelight.init.registrate.CDBlocks
+[Success] dev.xkmc.cuisinedelight.init.registrate.CDItems
+[Success] dev.xkmc.cuisinedelight.init.registrate.CDMisc
+[Success] dev.xkmc.l2core.init.reg.simple.Val
+[Success] vectorwing.farmersdelight.common.registry.ModSounds
+
+#### MethodsList 
+[Success] com.tterrag.registrate.util.entry.BlockEntry#asStack()Lnet/minecraft/world/item/ItemStack;
+[Success] dev.xkmc.cuisinedelight.content.block.CuisineSkilletBlockEntity#canCook()Z
+[Success] dev.xkmc.cuisinedelight.content.block.CuisineSkilletBlockEntity#isCooking()Z
+[Success] dev.xkmc.cuisinedelight.content.block.CuisineSkilletBlockEntity#stir(JI)V
+[Success] dev.xkmc.cuisinedelight.content.block.CuisineSkilletBlockEntity#sync()V
+[Success] dev.xkmc.cuisinedelight.content.logic.CookedFoodData#of(Ldev/xkmc/cuisinedelight/content/logic/CookingData;)Ldev/xkmc/cuisinedelight/content/logic/CookedFoodData;
+[Success] dev.xkmc.cuisinedelight.content.logic.CookingData#<init>()V
+[Success] dev.xkmc.cuisinedelight.content.logic.CookingData#stir(JI)V
+[Success] dev.xkmc.cuisinedelight.content.logic.IngredientConfig#get()Ldev/xkmc/cuisinedelight/content/logic/IngredientConfig;
+[Success] dev.xkmc.cuisinedelight.content.logic.IngredientConfig#getEntry(Lnet/minecraft/world/item/ItemStack;)Ldev/xkmc/cuisinedelight/content/logic/IngredientConfig$IngredientEntry;
+[Success] dev.xkmc.cuisinedelight.content.recipe.BaseCuisineRecipe#findBestMatch(Lnet/minecraft/world/level/Level;Ldev/xkmc/cuisinedelight/content/logic/CookedFoodData;)Lnet/minecraft/world/item/ItemStack;
+[Success] dev.xkmc.l2core.init.reg.simple.Val#get()Ljava/lang/Object;
+
+#### FieldList
+[Success] dev.xkmc.cuisinedelight.content.block.CuisineSkilletBlockEntity#cookingData
+[Success] dev.xkmc.cuisinedelight.content.logic.CookingData#contents
+[Success] dev.xkmc.cuisinedelight.content.logic.IngredientConfig$IngredientEntry#min_time
+[Success] dev.xkmc.cuisinedelight.content.logic.IngredientConfig$IngredientEntry#stir_time
+[Success] dev.xkmc.cuisinedelight.content.recipe.BaseCuisineRecipe#list
+[Success] dev.xkmc.cuisinedelight.init.registrate.CDBlocks#SKILLET
+[Success] dev.xkmc.cuisinedelight.init.registrate.CDItems#PLATE
+[Success] dev.xkmc.cuisinedelight.init.registrate.CDItems#SPATULA
+[Success] dev.xkmc.cuisinedelight.init.registrate.CDMisc#RT_CUISINE
+[Success] vectorwing.farmersdelight.common.registry.ModSounds#BLOCK_SKILLET_SIZZLE
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:compat_melon¡¢ModId£º minecraft¡¢ModVersion£º 1.21.1
+### ClassStatistics
+ClassesCount: 0
+MethodCount: 0
+FieldCount: 0
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+NoClassesFound
+
+#### MethodsList 
+NoMethodFound
+
+#### FieldList
+NoFieldsFound
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:farmersdelight_cutting_board_cutting¡¢ModId£º farmersdelight¡¢ModVersion£º 1.3.2
+### ClassStatistics
+ClassesCount: 4
+MethodCount: 4
+FieldCount: 2
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+[Success] vectorwing.farmersdelight.common.block.entity.CuttingBoardBlockEntity
+[Success] vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe
+[Success] vectorwing.farmersdelight.common.registry.ModBlocks
+[Success] vectorwing.farmersdelight.common.registry.ModRecipeTypes
+
+#### MethodsList 
+[Success] vectorwing.farmersdelight.common.block.entity.CuttingBoardBlockEntity#getInventory()Lnet/neoforged/neoforge/items/IItemHandler;
+[Success] vectorwing.farmersdelight.common.block.entity.CuttingBoardBlockEntity#getStoredItem()Lnet/minecraft/world/item/ItemStack;
+[Success] vectorwing.farmersdelight.common.block.entity.CuttingBoardBlockEntity#processStoredItemUsingTool(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;)Z
+[Success] vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe#getTool()Lnet/minecraft/world/item/crafting/Ingredient;
+
+#### FieldList
+[Success] vectorwing.farmersdelight.common.registry.ModBlocks#CUTTING_BOARD
+[Success] vectorwing.farmersdelight.common.registry.ModRecipeTypes#CUTTING
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:fd_skillet¡¢ModId£º farmersdelight¡¢ModVersion£º 1.3.2
+### ClassStatistics
+ClassesCount: 3
+MethodCount: 4
+FieldCount: 3
+MixinCount: 0
+Errors: 0
+
+#### ClassesList
+[Success] vectorwing.farmersdelight.common.block.entity.SkilletBlockEntity
+[Success] vectorwing.farmersdelight.common.registry.ModItems
+[Success] vectorwing.farmersdelight.common.registry.ModSounds
+
+#### MethodsList 
+[Success] vectorwing.farmersdelight.common.block.entity.SkilletBlockEntity#addItemToCook(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemStack;
+[Success] vectorwing.farmersdelight.common.block.entity.SkilletBlockEntity#getStoredStack()Lnet/minecraft/world/item/ItemStack;
+[Success] vectorwing.farmersdelight.common.block.entity.SkilletBlockEntity#hasStoredStack()Z
+[Success] vectorwing.farmersdelight.common.block.entity.SkilletBlockEntity#isHeated()Z
+
+#### FieldList
+[Success] vectorwing.farmersdelight.common.registry.ModItems#SKILLET
+[Success] vectorwing.farmersdelight.common.registry.ModSounds#BLOCK_SKILLET_ADD_FOOD
+[Success] vectorwing.farmersdelight.common.registry.ModSounds#BLOCK_SKILLET_SIZZLE
+
+#### MixinList
+NoMixinsFound
+
+#### ClassAnalysisLogs
+
+## TaskId£º maidsoulkitchen:farmersdelight_cooking_pot_cooking¡¢ModId£º farmersdelight¡¢ModVersion£º 1.3.2
+### ClassStatistics
+ClassesCount: 4
+MethodCount: 7
+FieldCount: 3
+MixinCount: 1
+Errors: 0
+
+#### ClassesList
+[Success] vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity
+[Success] vectorwing.farmersdelight.common.crafting.CookingPotRecipe
+[Success] vectorwing.farmersdelight.common.registry.ModItems
+[Success] vectorwing.farmersdelight.common.registry.ModRecipeTypes
+
+#### MethodsList 
+[Success] vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity#canCook(Lvectorwing/farmersdelight/common/crafting/CookingPotRecipe;)Z
+[Success] vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity#getContainer()Lnet/minecraft/world/item/ItemStack;
+[Success] vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity#getInventory()Lnet/neoforged/neoforge/items/ItemStackHandler;
+[Success] vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity#getMatchingRecipe(Lnet/neoforged/neoforge/items/wrapper/RecipeWrapper;)Ljava/util/Optional;
+[Success] vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity#getUsedRecipesAndPopExperience(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;)Ljava/util/List;
+[Success] vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity#isHeated()Z
+[Success] vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity#tlmk$canCook(Lvectorwing/farmersdelight/common/crafting/CookingPotRecipe;)Z
+
+#### FieldList
+[Success] vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity#usedRecipeTracker
+[Success] vectorwing.farmersdelight.common.registry.ModItems#COOKING_POT
+[Success] vectorwing.farmersdelight.common.registry.ModRecipeTypes#COOKING
+
+#### MixinList
+[Success] vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity
+
+#### ClassAnalysisLogs
+
+### AnalyzeLogsGlobally
+
+##ModList
+- betterdungeons: 1.21.1-NeoForge-5.1.4
+- meed: 8.0.1
+- azimuth: 1.4.1
+- dynamiccrosshair: 9.11
+- fabric_rendering_fluids_v1: 3.1.6+a51883b219
+- apollib: 1.1.5
+- create_cyber_goggles: 8.1.3
+- kaleidoscopecookery_automation: 1.0.2
+- neoforge: 21.1.240
+- modernfix: 5.27.20+mc1.21.1
+- fabric_block_view_api_v2: 1.0.10+9afaaf8c19
+- fabric_command_api_v2: 2.2.28+36d727be19
+- krypton_fnp: 0.2.28.1-1.21.1
+- yungsapi: 1.21.1-NeoForge-5.1.6
+- gateways: 5.1.0
+- iris: 1.8.14-beta.1+mc1.21.1
+- oneenoughitem: 1.0.8
+- tiny_config: 3.1.0
+- veil: 4.1.4
+- kambrik: 8.0.0-beta.2
+- generalfeedback: 1.0.0
+- biolith: 3.0.10
+- createdieselgenerators: 1.21.1-1.3.14
+- pickupnotifier: 21.1.1
+- create_new_age: 1.2.0+mc1.21.1
+- createbetterfps: 1.1.4
+- cloth_config: 15.0.140
+- betterfortresses: 1.21.1-NeoForge-3.1.5
+- supplementaries: 1.21.1-3.8.2
+- tenshilib: 1.21.1-2.2.5-neoforge
+- bcc: 21.1.8
+- jupiter: 2.3.7
+- yungsextras: 1.21.1-NeoForge-5.1.1
+- createlazytick: 2.4.9-6.0.x
+- accessories: 1.1.0-beta.53+1.21.1
+- createrailwaysnavigator: 1.21.1-beta-0.9.1-C6
+- transition: 1.0.21
+- dynamic_fps: 3.11.4
+- betterendisland: 1.21.1-NeoForge-3.1.2
+- fabric_rendering_data_attachment_v1: 0.3.48+73761d2e19
+- the_bumblezone: 7.15.1+1.21.1-neoforge
+- create_factory_abstractions: 1.4.9
+- betterjungletemples: 1.21.1-NeoForge-3.1.2
+- fabric_client_tags_api_v1: 1.2.0+5adff2d719
+- createultimine: 1.3.2
+- kiwi: 15.8.7+neoforge
+- quarkoddities: 1.21.1
+- compat_manager: 1.0.7
+- fastboot: 1.3.0
+- mbd2: 21.0.10
+- lithium: 0.15.4+mc1.21.1
+- attributefix: 21.1.3
+- fabric_screen_handler_api_v1: 1.3.91+8dbc56dd19
+- caelus: 7.0.1+1.21.1
+- libbamboo: 2.25
+- fragmentum: 2.2.4
+- integrated_api: 1.7.4+1.21.1-neoforge
+- vintageimprovements: 1.21.1-0.0.0.5
+- sodium: 0.8.12+mc1.21.1
+- fabric_particles_v1: 4.0.2+824f924c19
+- sophisticatedbackpackscreateintegration: 0.1.8
+- tectonic: 3.0.26
+- minecraft: 1.21.1
+- cavesdelight: 1.4.0-snapshot-1.1
+- omnilook: 0.2.1
+- shouldersurfing: 1.21.1-5.0.7
+- justenoughbreeding: 3.1.0
+- fabric_block_api_v1: 1.1.0+b0c22bb819
+- luncheonmeatsdelight: 1.21.1-1.0.6
+- fabric_resource_conditions_api_v1: 4.3.0+5bdd099819
+- forgeconfigapiport: 21.1.6
+- createadditionallogistics: 1.4.5
+- brewinandchewin: 4.5.0
+- sablecompanion: 1.6.0
+- flywheel: 1.0.6
+- create_aeronautics_toolgun: 0.2.3
+- shadowizardlib: 1.3.3
+- greenhouseconfig_night_config: 1.1.0
+- kaleidoscope_end: 1.0.14-neoforge+mc1.21.1
+- fabric_registry_sync_v0: 5.3.2+f9aace1619
+- appleskin: 3.0.9+mc1.21
+- lootr: 1.21.1-1.11.37.122
+- fabric_object_builder_api_v1: 15.2.1+cc242efd19
+- immersive_melodies: 0.6.4+1.21.1
+- enhancedbossbars: 1.0.0
+- fabric_message_api_v1: 6.0.14+6a754fce19
+- cosmeticarmorreworked: 1.21.1-v1-neoforge
+- euphoria_patcher: 1.9.3-r5.8.1-neoforge
+- atmosphere: 1.0.14
+- kuma_api: 21.0.8
+- fabric_renderer_api_v1: 3.4.1+9125b6dc19
+- codecui: 1.21.1-1.2.4
+- fabric_item_api_v1: 11.2.0+0c57911319
+- minersdelight: 1.4.5
+- zstdnet: 1.4.7
+- betteroceanmonuments: 1.21.1-NeoForge-4.1.2
+- tipsmod: 21.1.3
+- sophisticatedcore: 1.4.76
+- prism: 1.0.11
+- placebo: 9.9.1
+- createfastschematiccannon: 1.4.1-neoforge
+- cobweb: 1.4.0
+- bookshelf: 21.1.81
+- sophisticatedbackpacks: 3.25.71
+- ends_delight: 2.6.1+neoforge.1.21.1
+- carryon: 2.2.5
+- melody: 1.0.10
+- connector: 2.0.0-beta.15+1.21.1
+- fzzy_config: 0.7.6+1.21+neoforge
+- fabric_api: 0.116.14+2.3.0+1.21.1
+- forgified_fabric_api: 0.116.14+2.3.0+1.21.1
+- integration: 0.2
+- konkrete: 1.9.9
+- createcafe: 1.4.3
+- dsbg: 1.0
+- create_connected: 1.3.2-mc1.21.1
+- fabric_api_lookup_api_v1: 1.6.72+6244b11119
+- cmr: 1.2.1-fix1
+- greenhouseconfig: 2.2.3+1.21.1
+- dynamiccrosshairapi: 1.2
+- touhou_little_maid: 1.5.3-neoforge+mc1.21.1
+- cullleaves: 4.1.1
+- midnightlib: 1.9.3
+- dramaticdoors: 1.21.1-3.3.2
+- oneenoughvalue: 1.0.0-1.21.1
+- framework: 0.13.11
+- probejs: 8.0.3
+- observable: 5.4.4
+- fabric_key_binding_api_v1: 1.0.47+62cc7ce119
+- betteradvancements: 0.4.3.21
+- esl: 1.0.3
+- fabric_transfer_api_v1: 5.4.4+6244b11119
+- irisflw: 2.4.0
+- copycats: 3.0.4+mc.1.21.1-neoforge
+- xaerolib: 1.7.1
+- fabric_resource_loader_v0: 1.3.1+4ea8954419
+- traderefresh: 3.0.4
+- clumps: 19.0.0.1
+- mcwifipnp: 1.9.0
+- artifacts: 13.2.1
+- quality_food: 2.3.6
+- explorerscompass: 1.21.1-3.4.0-neoforge
+- txnilib: 1.0.24
+- skinlayers3d: 1.11.2
+- travelerstitles: 1.21.1-NeoForge-5.1.3
+- dragonlib: 1.21.1-beta-3.0.28
+- create_fantasizing: 1.2.0-b2
+- kaleidoscope_nether: 1.1.4-neoforge+mc1.21.1
+- mysterious_mountain_lib: 1.2.15-1.21.1
+- fabric_blockrenderlayer_v1: 1.1.52+c290471319
+- obscure_tooltips: 4.2.2
+- creativecore: 2.13.41
+- industrial_platform: 1.8.0
+- polyeng: 0.4.1
+- fabric_gametest_api_v1: 2.0.5+29f188ce19
+- neobeefix: 2.0.1
+- freecam: 1.3.0+mc1.21
+- jecharacters: 4.5.25
+- fabric_biome_api_v1: 13.0.31+1e62d33c19
+- cpapireforged: 1.2.2
+- fancymenu: 3.9.8
+- ferritecore: 7.0.3
+- functionalstorage: 1.21.1-1.5.7
+- charmofundying: 9.1.0+1.21.1
+- lodestone: 1.8.2
+- kaleidoscope_cookery: 1.4.1-neoforge+mc1.21.1
+- create_simulated_additions: 0.2.3
+- improvedmobs: 1.21.1-1.15.2-neoforge
+- overloadedarmorbar: 2
+- create_structures_arise: 176.49.48
+- imblocker: 5.5.4
+- create_enhanced_schematicannon: 1.0.4
+- smsn: 1.4.3-1.21.1
+- man_of_many_planes: 0.2.1+1.21.1
+- supermartijn642configlib: 1.1.8
+- sodium_extra: 0.9.3+mc1.21.1
+- sodiumextras: 1.0.7
+- createdeco: 2.1.3
+- playeranimator: 2.0.4+1.21.1
+- ponder: 1.0.82+mc1.21.1
+- world_preview: 1.3.1
+- aeronautics_bundled: 1.3.0
+- create_jetpack: 5.1.2
+- bettercaves: 1.21.1-NeoForge-3.1.4
+- create_deepfried: 0.1.3C
+- fabric_convention_tags_v1: 2.1.7+7f945d5b19
+- fabric_convention_tags_v2: 2.12.0+75d3639619
+- maidsoulkitchen: 0.1.4
+- kaleidoscope_chinesefood: 1.1.8-neoforge+1.21.1
+- kaleidoscope_doll: 1.4.1-neoforge+mc1.21.1
+- balm: 21.0.63
+- fabric_screen_api_v1: 2.0.26+b4953c7419
+- prickle: 21.1.11
+- chat_heads: 0.15.2
+- sqlite_jdbc: 3.53.2.0+2026-06-06
+- biome_replacer: 3.1-hippo
+- ldlib2: 2.2.29
+- athena: 4.0.6
+- glodium: 1.21-2.2-neoforge
+- w2w2: 2.1.0
+- vintagedelight: 0.2.6
+- torchmaster: 21.1.9
+- fabric_game_rule_api_v1: 1.0.53+36d727be19
+- chefsdelight: 1.0.5
+- supermartijn642corelib: 1.1.21
+- apothic_attributes: 2.9.1
+- yungsbridges: 1.21.1-NeoForge-5.1.1
+- resourcefulconfig: 3.0.11
+- rcg_lib: 1.21.1-NeoForge-1.0.2-beta
+- bakeries: 1.21.1-NeoForge-1.0.1
+- servercore: 1.5.19+1.21.1
+- curios: 9.5.1+1.21.1
+- ias: 9.0.7+1.21.1-neoforge
+- searchables: 1.0.2
+- fabric_entity_events_v1: 1.8.0+e46a02ca19
+- conditional_mixin: 0.6.4
+- create_rustic_structures: 1.0.1
+- flightlib: 3.2.1
+- jadeaddons: 6.1.0+neoforge
+- cobblefordays: 1.0.0
+- codechickenlib: 4.6.1.526
+- brandonscore: 3.2.1.309
+- cmpackagecouriers: 2.3.0
+- bettermineshafts: 1.21.1-NeoForge-5.1.1
+- acceleratedrendering: 1.0.14-1.21.1-alpha
+- aeronautics_display_link_fix: 1.3
+- elytraslot: 9.0.2+1.21.1
+- createnuclear: 1.3.2-beta.3
+- createbigcannons: 5.11.7
+- createtransmission: 1.2.1+neoforge-create6-1.21.1
+- integrated_villages: 1.3.3+1.21.1-neoforge
+- fabric_model_loading_api_v1: 2.1.0+6e8f52c719
+- jei: 19.39.0.368
+- butchercraft: 2.6.5
+- lithostitched: 1.7.13
+- aeronautics: 1.3.0
+- mekanism: 10.7.19
+- fabric_rendering_v1: 5.1.0+1a09bd5a19
+- fabric_renderer_indigo: 1.7.1+9125b6dc19
+- naturescompass: 1.21.1-3.4.0-neoforge
+- lightmanscurrency: 1.21-2.3.0.5
+- lctech: 1.21-0.2.2.7
+- oelib: 0.2.3
+- glitchcore: 2.1.0.2
+- sereneseasons: 10.1.0.3
+- neruina: 3.3.3
+- runiclib: 5.0.7
+- nebulusbetterportals: 1.0.8
+- iceandfire: 2.1-beta.1
+- catalogue: 1.11.2
+- cratedelight: 26.07.01-1.21-neoforge
+- end_portal_recept: 1.5.5
+- oworld2create: 1.0.0
+- offroad: 1.3.0
+- idas: 1.13.7+1.21.1-neoforge
+- drippyloadingscreen: 3.1.2
+- simplebackups: 1.21-4.0.30
+- itemphysiclite: 1.6.11
+- fabric_api_base: 0.4.42+d1308ded19
+- createstockbridge: 0.2.0
+- bettercombat: 2.4.0+1.21.1
+- mousetweaks: 2.26.1
+- createoreexcavation: 1.6.8
+- nochatreports: 1.21.1-v2.9.1
+- createutilities: 0.3.7
+- spectrelib: 0.17.2+1.21
+- eclipticseasons: 0.13.9.6
+- createendertransmission: 2.1.1-1.21.1
+- kotlinforforge: 5.12.0
+- xaerominimap: 26.4.2
+- integrated_stronghold: 1.1.4+1.21.1-neoforge
+- prometheus: 1.2.5
+- soul_fire_d: 6.1.0
+- fabric_item_group_api_v1: 4.1.7+e324903319
+- polymorph: 1.1.0+1.21.1
+- l2core: 3.0.8+16
+- zeta: 1.1-40
+- entityculling: 1.10.5
+- continuity: 3.0.0_1.21.neoforge
+- oceansdelight: 1.0.4
+- fabric_recipe_api_v1: 5.0.16+59440bcc19
+- modernui: 3.13.0.1
+- puzzleslib: 21.1.52
+- create_power_loader: 2.0.5-mc1.21.1
+- fabric_sound_api_v1: 1.0.23+10b84f8419
+- betterend: 21.0.26
+- configurable: 3.5.2
+- cristellib: 3.1.7
+- tetra: 6.13.0
+- totw_modded: 1.0.9
+- betterwitchhuts: 1.21.1-NeoForge-4.1.1
+- wover: 21.0.23
+- geckolib: 4.9.2
+- creeperoverhaul: 4.0.6
+- create_compatible_storage: 2.11.0-neoforge
+- morejs: 1.21.1-0.16.0
+- dynamiclights: 1.9.3+mod
+- immersive_aircraft: 1.4.6+1.21.1
+- netmusic: 1.5.1-neoforge+mc1.21.1
+- kaleidoscope_tavern: 1.2.0-neoforge+mc1.21.1
+- kaleidoscope_world_liquor: 1.1.7-neoforge+1.21.1
+- kaleidoscope_compat: 2.9.7-neoforge+mc1.21.1
+- ritchiesprojectilelib: 2.1.2
+- controlling: 19.0.5
+- xaeroworldmap: 1.44.2
+- citadel: 2.7.6
+- fabric_data_attachment_api_v1: 1.4.7+26d408aa19
+- biomespy: 1.3.3
+- simulated: 1.3.0
+- createaddition: 1.6.0
+- wunderlib: 21.0.10
+- jeed: 1.21-2.3.2
+- railways: 0.3.0-beta+neoforge-mc1.21.1
+- struts: 1.2.7
+- bits_n_bobs: 2.1.11-beta
+- create_jetpack_curios: 1.2.0
+- bclib: 21.0.22
+- dummmmmmy: 1.21-2.0.12
+- fabric_content_registries_v0: 8.0.19+5e0d320019
+- twilightforest: 4.8.3345
+- kaleidoscope_twilight: 1.0.6-neoforge+mc1.21.1
+- sodiumdynamiclights: 1.0.9
+- greenhouseconfig_toml: 1.1.0
+- farmersdelight: 1.3.2
+- mynethersdelight: 1.10.2
+- rusticdelight: 1.6.1
+- corn_delight: 1.2.10-1.21.1
+- dumplings_delight: 1.4.1
+- dungeonsdelight: 1.5.0
+- fruitsdelight: 1.2.14
+- cuisinedelight: 1.2.10
+- culturaldelights: 0.17.8
+- create_ultimate_factory: 2.2.4
+- colorfulhearts: 10.5.9
+- trailsandtalesplus: 1.0.0
+- spiceoflifelatiao: 1.4.7
+- bountiful: 8.0.0-beta.2
+- patchouli: 1.21.1-93-NEOFORGE
+- simplebedrockmodel: 2.2.1-neoforge+mc1.21.1
+- simplehats: 0.4.0
+- betterendcities_betterend_1_21: 1.21
+- ftbultimine: 2101.1.15
+- betterstrongholds: 1.21.1-NeoForge-5.1.3
+- resourcefullib: 3.0.12
+- createliquidfuel: 2.1.1-1.21.1
+- lootjs: 1.21.1-3.7.0
+- ali: 1.12.0
+- architectury: 13.0.8
+- vinery: 1.5.3
+- herbalbrews: 1.1.3
+- farm_and_charm: 1.1.22
+- brewery: 2.1.9
+- uranus: 2.4.1
+- ftblibrary: 2101.1.33
+- ftbfiltersystem: 21.1.4
+- ftbteams: 2101.1.10
+- ftbranks: 2101.1.3
+- ftbessentials: 2101.1.10
+- ftbchunks: 2101.1.20
+- ftbquests: 2101.1.27
+- certain_questing_additions: 1.2.0.3
+- seasonhud: 2.0.6
+- fabric_loot_api_v2: 3.0.15+a3ee712d19
+- fabric_loot_api_v3: 1.0.3+333dfad919
+- refurbished_furniture: 1.0.22
+- trashcans: 1.0.18+c
+- fabric_networking_api_v1: 4.3.1+30a980d919
+- t_and_t: 1.13.9
+- yeetusexperimentus: 87.0.0
+- fabric_lifecycle_events_v1: 2.6.0+e40d8add19
+- percale: 1.0.0-beta.1
+- ftbquestslangsplitter: 1.0.5
+- dynamiclantern: 1.8.0
+- rhino: 2101.2.7-build.85
+- kubejs: 2101.7.2-build.368
+- ftbxmodcompat: 21.1.9
+- betteradvancedtooltips: 2101.1.0-build.1
+- mechanicals: 1.1.6
+- kubejsdelight: 1.1.6
+- festive_delight: 2.0.0
+- owo: 0.12.15.5-beta.1+1.21
+- trashslot: 21.1.11
+- amendments: 1.21-2.1.7
+- createvintageneoforged: 1.21.1-1.3.7
+- octolib: 0.6.2
+- elysium_api: 2.0.0
+- tacz: 1.1.8-hotfix-r3
+- taczaddon: 1.1.8
+- trender: 1.0.15
+- ponderjs: 1.21.1-2.4.0
+- create: 6.0.10
+- createprism: 1.2.2
+- ratatouille: 1.4.0
+- createsifter: 1.21.1-2.2.2
+- kubejs_create: 2101.3.1-build.18
+- interiors: 0.6.1
+- create_dragons_plus: 1.11.2b
+- create_bs: 1.1.0-1.21.1
+- ratatouille_fried_delights: 1.0.4
+- sliceanddice: 4.3.2
+- northstar: 0.6.3+1.21.1
+- northstar_curios_compat: 1.3.1
+- extra_gauges: 2.1.2
+- sable: 2.0.3
+- aeronautics_utility_objects: 0.2.5
+- constructionwand: 2.16.9
+- tracks: 1.0.1
+- createpropulsion: 1.1.4
+- create_submarine: 2.2.4
+- create_abyss: 1.0.0
+- create_high_seas: 0.1.0
+- create_enchantment_industry: 2.5.0-preview-alpha1
+- cnbridge: 1.0.0
+- create_central_kitchen: 2.5.0
+- create_mechanical_extruder: 1.21.1-2.2.1-6.0.10
+- create_mechanical_spawner: 1.3.1-6.0.10
+- someassemblyrequired: 5.2.8
+- waystones: 21.1.37
+- comforts: 9.0.5+1.21.1
+- configured: 2.6.3
+- create_bic_bit: 1.0.2C
+- create_confectionery: 1.1.3.
+- guideme: 21.1.17
+- betterdeserttemples: 1.21.1-NeoForge-4.1.5
+- resourcify: 1.8.5
+- terralith: 2.6.2
+- blueprint: 8.1.1
+- abnormals_delight: 6.0.2
+- neapolitan: 6.0.1
+- drivebywire: 0.3.0
+- sable_schematic_api: 0.4.0
+- aeroworks: 1.3.0
+- aeronautics_curios_compat: 2.0
+- player_animation_library: 1.1.5+mc.1.21.1
+- trueuuid: 1.1.2
+- casualnessdelight: 0.6
+- fabric_transitive_access_wideners_v1: 6.2.0+6c854b6f19
+- always_eat: 1.0.0
+- alexscaves: 2.0.10
+- letemburn: 1.1.0
+- enchdesc: 21.1.10
+- radiantgear: 4.2.3+1.21.1
+- moonlight: 1.21.1-3.1.2
+- titanium: 4.0.45
+- visual_keybinder: 1.21.1 - 0.1.13-neoforge
+- jade: 15.10.5+neoforge
+- ae2: 19.2.17
+- ae2ct: 1.0.1
+- ae2omnicells: 1.1.6
+- ae2netanalyser: 1.21-2.1.5-neoforge
+- ae2wtlib: 19.5.1
+- extendedae: 1.21-2.2.29-neoforge
+- ae2wtlib_api: 19.5.1
+- createmetallurgy: 1.0.3
+- appliedcreate: 1.1.6
+- megacells: 4.11.0
+- l2harvester: 3.0.0
+- displaydelight: 1.6.0
+- iceberg: 1.3.2
+- advancementplaques: 1.6.8
+- itemborders: 1.2.5
+- mutil: 6.3.1
+- ftbxaerocompat: 1.1.4
+- quark: 4.1-482
+- deployer: 0.1.2
+- create_sa: 2.1.4.
+- renderjs: 2101.2.4
+- barbequesdelight: 1.3.0
+- immersive_paintings: 0.7.8
+- coroutil: 1.21.0-1.3.9
+- watut: 1.21.0-1.2.7
+- alexsdelight: 1.6
+- create_pattern_schematics: 2.0.10
+- yet_another_config_lib_v3: 3.8.2+1.21.1-neoforge
+- solcarrot: 1.16.6
+- createfluidstuffs: 1.2.1
+- crabbersdelight: 1.2.6
+- packetfixer: 3.3.1
+- expandability: 12.0.0
+- fabric_data_generation_api_v1: 20.3.0+3e2bcb4b19
+- fabric_tag_api_v1: 1.3.0+3e2bcb4b19
+- fabric_events_interaction_v0: 0.7.14+86e0887119
+- vanillin: 1.1.3
+- presencefootsteps: 1.21.1-1.12.0-beta.1

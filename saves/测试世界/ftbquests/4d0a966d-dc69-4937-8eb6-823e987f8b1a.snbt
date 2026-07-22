@@ -1,0 +1,14 @@
+{
+	version: 1
+	uuid: "4d0a966ddc6949378eb6823e987f8b1a"
+	name: "silentor322#4d0a966d"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: { }
+}

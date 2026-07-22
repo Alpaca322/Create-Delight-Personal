@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="resourcepacks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resourcepacks/LCVP_CreateStyle_v1.7.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/Torchmaster Remaster.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/Squareful方纹v26.2.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/XK Highlight Block.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/Squareful-Create_Delight_Remake.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/Squareful v3.15forMC1.20.1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/resourcepacks/Quark Programmer Art.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

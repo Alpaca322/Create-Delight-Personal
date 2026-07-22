@@ -1,0 +1,14 @@
+{
+  "date": "2026-07-19",
+  "firstSampleAt": 1784457621570,
+  "lastSampleAt": 1784472324717,
+  "metrics": {
+    "durationMillis": 5680757,
+    "rawIngress": 0,
+    "rawEgress": 0,
+    "tcpIngress": 0,
+    "tcpEgress": 0,
+    "udpIngress": 0,
+    "udpEgress": 0
+  }
+}

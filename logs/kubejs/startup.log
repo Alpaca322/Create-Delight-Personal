@@ -1,0 +1,42 @@
+[16:42:08] [INIT] KubeJS 2101.7.2-build.368; MC 2101 NeoForge
+[16:42:08] [INIT] Loaded plugins:
+[16:42:08] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[16:42:08] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[16:42:08] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[16:42:08] [INIT] - com.sighs.generalfeedback.JSPlugin
+[16:42:08] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
+[16:42:08] [INIT] - com.lowdragmc.mbd2.integration.kubejs.MBDKubeJSPlugin
+[16:42:08] [INIT] - com.negodya1.vintageimprovements.VintageKubeJSPlugin
+[16:42:08] [INIT] - com.github.tartaricacid.touhoulittlemaid.compat.kubejs.ModKubeJSPlugin
+[16:42:08] [INIT] - moe.wolfgirl.probejs.plugin.ProbeJSKJSPlugin
+[16:42:08] [INIT] - com.github.ysbbbbbb.kaleidoscopecookery.compat.kubejs.ModKubeJSPlugin
+[16:42:08] [INIT] - com.lowdragmc.lowdraglib2.integration.kjs.LDLibKubeJSPlugin
+[16:42:08] [INIT] - com.tom.createores.kubejs.KubeJSExcavation
+[16:42:08] [INIT] - com.teamtea.eclipticseasons.compat.kubejs.KubeJSPluginImpl
+[16:42:08] [INIT] - com.almostreliable.morejs.Plugin
+[16:42:08] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[16:42:08] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[16:42:08] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[16:42:08] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[16:42:08] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[16:42:08] [INIT] - com.oierbravo.mechanicals.compat.kubejs.MechanicalsJsPlugin
+[16:42:08] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[16:42:08] [INIT] - dev.bluephs.createvintageneoforged.compat.kubejs.VintagejsPlugin
+[16:42:08] [INIT] - com.tacz.guns.compat.kubejs.TimelessKubeJSPlugin
+[16:42:08] [INIT] - com.almostreliable.ponderjs.KubePlugin
+[16:42:08] [INIT] - com.oierbravo.createsifter.compat.kubejs.KubeJSCreatesifterPlugin
+[16:42:08] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[16:42:08] [INIT] - com.lightning.northstar.compat.kubejs.NorthstarKubeJsPlugin
+[16:42:08] [INIT] - dev.propulsionteam.propulsionsimulated.compat.kubejs.PropulsionKubeJSPlugin
+[16:42:08] [INIT] - dev.propulsionteam.propulsionsimulated.compat.kubejs.PropulsionKubeJSPlugin
+[16:42:08] [INIT] - com.oierbravo.create_mechanical_extruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[16:42:08] [INIT] - com.oierbravo.create_mechanical_spawner.compat.kubejs.KubeJSCreateMechanicalSpawnerPlugin
+[16:42:08] [INIT] - com.glodblock.github.extendedae.xmod.kjs.KJSPlugin
+[16:42:08] [INIT] - fr.lucreeper74.createmetallurgy.compat.kubejs.CreateMetallurgyKJS
+[16:42:08] [INIT] - com.chen1335.renderjs.kubejs.RenderJSPlugin
+[16:42:08] [INIT] - com.chen1335.renderjs.kubejs.RenderJSCommonPlugin
+[16:42:09] [INFO] startup_scripts:main.js#2: Hello, World! (Loaded startup example script)
+[16:42:09] [INFO] Loaded script startup_scripts:main.js in 0.051 s
+[16:42:09] [INFO] Loaded 1/1 KubeJS startup scripts in 2.473 s with 0 errors and 0 warnings
+[16:42:10] [INFO] Validated 0 files in kubejs/assets/ in 1ms
+[16:42:10] [INFO] Validated 0 files in kubejs/data/ in 1ms

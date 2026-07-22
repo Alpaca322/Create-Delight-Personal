@@ -1,0 +1,3 @@
+/kill @e[type=minecraft:pillager]
+/kill @e[type=item]
+/kill @e[type=zombie]

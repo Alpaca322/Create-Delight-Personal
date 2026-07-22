@@ -1,0 +1,16 @@
+[2026-07-20 16:41:09] [INFO]: I18nUpdate Mod 3.7.0 is loaded in 1.21.1 with Forge
+[2026-07-20 16:41:09] [DEBUG]: Minecraft path: D:\MC_games\versions\齿轮盛宴1.21.1
+[2026-07-20 16:41:09] [DEBUG]: Local Storage Pos: C:\Users\Administrator
+[2026-07-20 16:41:09] [INFO]: Using fastest url: http://downloader1.meitangdehulu.com:22943/
+[2026-07-20 16:41:09] [DEBUG]: Using asset root: http://downloader1.meitangdehulu.com:22943/
+[2026-07-20 16:41:09] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip md5: 2410BF1E410522682367D87DA6B54D46, remote md5: 2410BF1E410522682367D87DA6B54D46
+[2026-07-20 16:41:09] [DEBUG]: Already up to date.
+[2026-07-20 16:41:09] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip md5: 976B34B1ED503A31EA4DDCC863E968CB, remote md5: 976B34B1ED503A31EA4DDCC863E968CB
+[2026-07-20 16:41:09] [DEBUG]: Already up to date.
+[2026-07-20 16:41:09] [DEBUG]: C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip md5: D24B518CD7C29D4B06299B9C9D88B87B, remote md5: D24B518CD7C29D4B06299B9C9D88B87B
+[2026-07-20 16:41:09] [DEBUG]: Already up to date.
+[2026-07-20 16:41:09] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip
+[2026-07-20 16:41:10] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip
+[2026-07-20 16:41:10] [INFO]: Converting: C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip
+[2026-07-20 16:41:10] [INFO]: Converted: [C:\Users\Administrator\.i18nupdatemod\1.21\Minecraft-Mod-Language-Modpack-1-21.zip, C:\Users\Administrator\.i18nupdatemod\1.20\Minecraft-Mod-Language-Modpack-1-20.zip, C:\Users\Administrator\.i18nupdatemod\1.19\Minecraft-Mod-Language-Modpack-1-19.zip] -> C:\Users\Administrator\.i18nupdatemod\1.21.1\Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip
+[2026-07-20 16:41:10] [INFO]: Synchronized: C:\Users\Administrator\.i18nupdatemod\1.21.1\Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip -> D:\MC_games\versions\齿轮盛宴1.21.1\resourcepacks\Minecraft-Mod-Language-Modpack-Converted-1.21.1.zip

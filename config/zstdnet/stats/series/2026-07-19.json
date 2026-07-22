@@ -1,0 +1,293 @@
+{
+  "date": "2026-07-19",
+  "buckets": [
+    {
+      "start": 1784457600000,
+      "metrics": {
+        "durationMillis": 42698,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784457900000,
+      "metrics": {
+        "durationMillis": 33332,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784458500000,
+      "metrics": {
+        "durationMillis": 103514,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784466300000,
+      "metrics": {
+        "durationMillis": 245007,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784466600000,
+      "metrics": {
+        "durationMillis": 300000,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784466900000,
+      "metrics": {
+        "durationMillis": 271643,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784467200000,
+      "metrics": {
+        "durationMillis": 80005,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784467500000,
+      "metrics": {
+        "durationMillis": 300028,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784467800000,
+      "metrics": {
+        "durationMillis": 299973,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784468100000,
+      "metrics": {
+        "durationMillis": 299999,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784468400000,
+      "metrics": {
+        "durationMillis": 299001,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784468700000,
+      "metrics": {
+        "durationMillis": 300000,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784469000000,
+      "metrics": {
+        "durationMillis": 301000,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784469300000,
+      "metrics": {
+        "durationMillis": 299999,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784469600000,
+      "metrics": {
+        "durationMillis": 300001,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784469900000,
+      "metrics": {
+        "durationMillis": 300000,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784470200000,
+      "metrics": {
+        "durationMillis": 234532,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784470500000,
+      "metrics": {
+        "durationMillis": 144007,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784470800000,
+      "metrics": {
+        "durationMillis": 300999,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784471100000,
+      "metrics": {
+        "durationMillis": 300001,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784471400000,
+      "metrics": {
+        "durationMillis": 299999,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784471700000,
+      "metrics": {
+        "durationMillis": 300001,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784472000000,
+      "metrics": {
+        "durationMillis": 299999,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    },
+    {
+      "start": 1784472300000,
+      "metrics": {
+        "durationMillis": 25019,
+        "rawIngress": 0,
+        "rawEgress": 0,
+        "tcpIngress": 0,
+        "tcpEgress": 0,
+        "udpIngress": 0,
+        "udpEgress": 0
+      }
+    }
+  ]
+}
